@@ -5,7 +5,7 @@
     "lib": "../clipart"
   },
   "dependencies": {
-    "dojo": "1.7"
+    "dojo": "1.16"
   },
   "overlays": {
     "oam": {
