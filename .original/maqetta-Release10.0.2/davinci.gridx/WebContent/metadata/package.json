@@ -15,7 +15,7 @@
 	   }
 	],
 	"dependencies": {
-		"dojo": "1.8"
+		"dojo": "1.16"
 	},
 	"overlays": {
 		"oam": {
