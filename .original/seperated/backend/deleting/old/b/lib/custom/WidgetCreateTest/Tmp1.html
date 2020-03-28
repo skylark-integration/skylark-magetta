@@ -1,0 +1,20 @@
+<div data-dojo-type="dijit.layout.ContentPane" title="Tasks" selected="selected" closable="false" style="width: 376px; height: 180px;">
+ <div style="text-align: right;">
+  <input type="button" data-dojo-type="dijit.form.Button" label="New" onclick="davinci.states.setState('Add Task')"></input>
+  <input type="button" data-dojo-type="dijit.form.Button" label="Del"></input>
+</div>
+ <div style="padding-top: 10px; padding-bottom: 10px;">
+<label>
+Sort by:</label>
+  <select data-dojo-type="dijit.form.ComboBox" value="Name" style="width: 126px; margin-left: 5px;">
+    <option dvwidget="html.option" value="Name" selected="selected">
+      Name</option>
+    <option dvwidget="html.option" value="Due date">
+      Due date</option>
+  </select>
+</div>
+ <select multiple="multiple" data-dojo-type="dijit.form.MultiSelect" style="display: none; width: 200px;" data-maq-deltas="{'Task Added':{'style':{'display':''}}}">
+   <option dvwidget="html.option" value="Task 1">
+     Task 1</option>
+ </select>
+</div>

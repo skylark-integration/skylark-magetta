@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.orion.server.authentication.source.feature" version="0.5.0.v20120525-1301" label="%featureName"   provider-name="%providerName"     >
+	<description >
+		%description
+	</description>
+	<copyright >
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+      %license
+  	</license>
+	<plugin id="org.eclipse.orion.server.authentication.form.core.source" version="0.3.0.v20120619-1547"     unpack="false"/>
+	<plugin id="org.eclipse.orion.server.authentication.formopenid.source" version="0.3.0.v20120619-1547"     unpack="false"/>
+	<plugin id="org.eclipse.orion.server.authentication.openid.core.source" version="0.3.0.v20120618-1550"     unpack="false"/>
+	<plugin id="org.eclipse.orion.server.authentication.basic.source" version="0.2.0.v20120605-2104"     unpack="false"/>
+</feature>

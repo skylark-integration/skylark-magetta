@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.orion.server.search.feature"
+      label="%featureName"
+      version="0.5.0.v20120504-1555-7b82-FBFqSfqa5g4Et57J"
+      provider-name="%providerName"
+      
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.orion.server.feature" version="0.5.0.qualifier"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.orion.server.search"
+         download-size="0"
+         install-size="0"
+         version="0.5.0.v20120607-1524"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.solr.client.solrj"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.v20120319-2345"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.solr.core"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.v20120320-2000"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene.analysis"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.v20120319-2345"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene.core"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.v20120319-2345"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene.highlighter"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.v20120319-2345"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene.memory"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.v20120319-2345"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene.misc"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.v20120319-2345"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene.queries"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.v20120319-2345"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene.spellchecker"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.v20120319-2345"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.fileupload"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.201209111034"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene.grouping"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.v20120319-2345"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene.spatial"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.v20120319-2345"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.lucene"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.v20120319-2345"
+         unpack="false"/>
+
+</feature>

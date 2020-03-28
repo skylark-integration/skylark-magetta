@@ -1,0 +1,15 @@
+{
+	"project1": {
+		"davinci.ui.ProjectPrefs": {
+			"themeFolder": "themes",
+			"webContentFolder": "",
+			"widgetFolder": "lib/widgets"
+		},
+		"davinci.ve.editorPrefs": {
+			"absoluteWidgetsZindex": "900",
+			"cssOverrideWarn": "true",
+			"flowLayout": "true",
+			"showPossibleParents": "false",
+			"snap": "true"
+	}
+}

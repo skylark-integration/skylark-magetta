@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.equinox.http.registry;bundle-version="1.0.
+ 200",org.eclipse.equinox.registry;bundle-version="3.4.100"
+Eclipse-SourceReferences: scm:git:git://github.com/maqetta/maqetta.git
+ ;path="maqetta.core.client"
+Bundle-ActivationPolicy: lazy
+Eclipse-BundleShape: dir
+Bundle-Version: 1.0.0.201209111034
+Bundle-Name: Server
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: maqetta.core.client;singleton:=true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

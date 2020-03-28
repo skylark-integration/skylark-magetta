@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.equinox.http.registry;bundle-version="1.0.
+ 200",org.eclipse.osgi;bundle-version="3.5.0"
+Eclipse-SourceReferences: scm:git:git://github.com/maqetta/maqetta.git
+ ;path="davinci.gridx"
+Eclipse-BundleShape: dir
+Bundle-Version: 1.0.0.201209111034
+Bundle-Name: davinci.gridx
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: davinci.gridx;singleton:=true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

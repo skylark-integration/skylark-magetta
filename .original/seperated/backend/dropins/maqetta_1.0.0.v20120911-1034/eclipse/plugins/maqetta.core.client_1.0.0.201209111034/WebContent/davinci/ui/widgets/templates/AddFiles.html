@@ -1,0 +1,15 @@
+<div>
+	<div class="dijitDialogPaneContentArea">
+		<label for="fileDialogParentFolder">${uiNLS.parentFolder}</label>
+		<div dojoAttachPoint="fileDialogParentFolder"></div>
+		<div>
+			<input dojoAttachPoint="uploader" multiple="true" type="file" data-dojo-type="dojox.form.Uploader"/>
+		</div>
+		<div dojoAttachPoint="filelist"></div>
+	</div>
+
+  <div class="dijitDialogPaneActionBar">
+  	<button dojoAttachPoint="uploadBtn" dojoType="dijit.form.Button" class="maqPrimaryButton">${uiNLS.upload}</button>
+		<button dojoType='dijit.form.Button' dojoAttachEvent='onClick:_cancelButton' class="maqSecondaryButton">${uiNLS.cancelButtonLabel}</button>
+	</div>
+</div>

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Eclipse-SourceReferences: scm:git:git://github.com/maqetta/maqetta.git
+ ;path="maqetta.client.orion"
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 1.0.0.201209111034
+Bundle-Name: Server
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: maqetta.client.orion;singleton:=true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Untitled</title>
+<script type="text/javascript" src="lib/dojo/dojo/dojo.js" data-dojo-config="'parseOnLoad':true,'async':true,'packages':[{'name':'gridx','location':'../gridx'},{'name':'clipart','location':'../../clipart'},{'name':'maqettaSamples','location':'../../../samples'},{'name':'maqetta','location':'../../maqetta'},{'name':'shapes','location':'../../shapes'},{'name':'zazl','location':'../../zazl'},{'name':'widgets','location':'../../custom'}]"></script>
+<script type="text/javascript">
+require([
+  "dijit/dijit",
+  "dojo/parser",
+  "maqetta/space",
+  "maqetta/AppStates",
+  "dojox/mobile",
+  "dojox/mobile/deviceTheme",
+  "dojox/mobile/compat",
+  "dojo/hash",
+  "dojox/mobile/Button",
+  "dojox/mobile/CheckBox",
+  "dojox/mobile/ToggleButton",
+  "dojox/mobile/IconItem",
+  "dojox/mobile/IconContainer",
+  "dojox/io/xhrScriptPlugin",
+  "dojo/data/ItemFileReadStore",
+  "dojox/mobile/DataCarousel",
+  "dojox/mobile/TextBox",
+  "shapes/Text",
+  "shapes/Rectangle",
+  "dijit/form/Button",
+  "dijit/form/CurrencyTextBox",
+  "shapes/Circle",
+  "clipart/ArrowDown",
+  "clipart/iPhone",
+  "clipart/Print",
+  "clipart/Person",
+  "clipart/Browser",
+  "clipart/Map",
+  "clipart/Image",
+  "clipart/Next",
+  "clipart/ArrowLeft",
+  "clipart/Camera"
+]);
+</script>
+<style>@import "themes/claro/claro.css";@import "lib/dojo/dojox/mobile/themes/common/domButtons/DomButtonRedBadge.css";@import "lib/shapes/shapes.css";@import "app.css";
+</style>
+<script type="text/javascript" src="app.js"></script>
+</head>
+<body class="claro" data-maq-flow-layout="false" data-maq-ws="collapse" data-maq-orientation="portrait" data-maq-appstates="{'states':['ds']}" id="myapp">
+<div data-dojo-type="clipart.iPhone" style="position: absolute; z-index: 900; width: 457.5625px; height: 645.84375px; left: 3157px; top: -24px; display: none !important;">
+  <img data-dojo-type="clipart.ArrowLeft" style="position: absolute; z-index: 900; width: 68px; height: 12px; left: 264px; top: 139px;"></img>
+</div>
+<div id="settings" class="view mblView">
+  <script type="text/javascript">
+        function setRef(id, addrRef) {
+                var widget = dijit.byId("infoGroup");
+                var target = dijit.byId(id);
+                var model = widget.get("ref");
+                target.set("ref", model[addrRef]);
+            }
+    </script>
+    <h1 dojoType="dojox.mobile.Heading"> Data Binding Example<div label="Home" data-dojo-type="dojox.mobile.ToolBarButton" style="width: 69px; height: 24px;" toogle="false" back="false" sync="false" arrow="left"></div>
+</h1>
+    <form name="testForm" style="height: 115px;">
+    <div class="field-title">
+        Ship to - Bill to Address</div>
+      <div style="width: 1008px; height: 28px;" class="spacer">
+        <button data-dojo-type="dojox.mobile.Button" style="width: 41px;" class="mblBlueButton" onclick="setRef('addrGroup', 'ShipTo')">
+          
+        
+          Ship To</button>
+        <button data-dojo-type="dojox.mobile.Button" class="mblBlueButton" onclick="setRef('addrGroup', 'BillTo')">
+          
+        
+          Bill To</button>
+        <button data-dojo-type="dojox.mobile.Button" class="mblBlueButton" onclick="dijit.byId('infoGroup').get('ref').reset();">
+          
+        Reset</button>
+      </div>
+      <br></br>
+      <div class="spacer"></div>
+      </form>
+    </div>
+<span data-dojo-type="shapes.Text" style="font-size: 14px; position: absolute; z-index: 900; left: 163px; top: 180px;" content="Text"></span><a>
+</a>
+<input type="text" data-dojo-type="dijit.form.CurrencyTextBox" currency="USD" style="position: absolute; z-index: 900; width: 243px; left: 632px; top: 87.5px;"></input>
+<span data-dojo-type="shapes.Text" style="font-size: 14px; position: absolute; z-index: 900; left: 293px; top: 339px;" content="Text"></span>
+<img data-dojo-type="clipart.ArrowDown" style="position: absolute; z-index: 900; left: 107px; top: 315px;"></img>
+<img data-dojo-type="clipart.Print" style="position: absolute; z-index: 900; left: 611px; top: 274px;"></img>
+<img data-dojo-type="clipart.Person" style="position: absolute; z-index: 900; width: 71px; height: 72px; left: 669px; top: 198.5px;"></img>
+<img data-dojo-type="clipart.Image" style="position: absolute; z-index: 900; left: 569px; top: 302px;"></img>
+<img data-dojo-type="clipart.Next" style="position: absolute; z-index: 900; left: 297px; top: 207px; width: 21px; height: 1px;"></img>
+<img data-dojo-type="clipart.Camera" style="position: absolute; z-index: 900; width: 37px; height: 27px; left: 600.5px; top: 184.5px;"></img>
+<img data-dojo-type="clipart.Map" style="position: absolute; z-index: 900; width: 335.984375px; height: 271px; left: 139.5078125px; top: 169px;"></img>
+</body>
+</html>

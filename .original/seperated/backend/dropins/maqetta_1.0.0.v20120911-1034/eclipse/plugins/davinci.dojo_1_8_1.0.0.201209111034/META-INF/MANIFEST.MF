@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Require-Bundle: maqetta.core.server;bundle-version="1.0.0"
+Eclipse-SourceReferences: scm:git:git://github.com/maqetta/maqetta.git
+ ;path="davinci.dojo_1_8"
+Bundle-ActivationPolicy: lazy
+Eclipse-BundleShape: dir
+Bundle-Version: 1.0.0.201209111034
+Bundle-Name: Dojo Toolkit 1.8b1
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: davinci.dojo_1_8;singleton:=true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+
+

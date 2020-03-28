@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %Bundle-Vendor
+Eclipse-SourceBundle: org.eclipse.orion.client.users;version="0.2.0.v2
+ 0120605-1950"
+Bundle-Version: 0.2.0.v20120605-1950
+Bundle-Localization: bundle
+Bundle-Name: %Bundle-Name
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.eclipse.orion.client.users.source
+
+

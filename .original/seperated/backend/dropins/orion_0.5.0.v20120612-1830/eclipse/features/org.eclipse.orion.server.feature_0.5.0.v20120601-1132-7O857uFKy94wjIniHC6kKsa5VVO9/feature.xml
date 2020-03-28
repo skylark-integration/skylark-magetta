@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.orion.server.feature"
+      label="%featureName"
+      version="0.5.0.v20120601-1132-7O857uFKy94wjIniHC6kKsa5VVO9"
+      provider-name="%providerName"
+      
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.orion.base.feature"
+         version="0.5.0.v20120530-1904-9I9BG2kFiv5_Lvf_qKyWEim"/>
+
+   <includes
+         id="org.eclipse.orion.server.ui.feature"
+         version="0.2.0.v20120425-1428-7N7_FGBEVVFNUFtUd7OcRZ08JBQB"
+         optional="true"
+         os="macosx"
+         ws="cocoa"/>
+
+   <plugin
+         id="org.eclipse.orion.server.core"
+         download-size="0"
+         install-size="0"
+         version="0.3.0.v20120619-1547"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.orion.server.configurator"
+         download-size="0"
+         install-size="0"
+         version="0.5.0.v20120612-1830"/>
+
+   <plugin
+         id="org.eclipse.orion.server.servlets"
+         download-size="0"
+         install-size="0"
+         version="0.5.0.v20120606-2154"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.orion.server.useradmin"
+         download-size="0"
+         install-size="0"
+         version="0.2.0.v20120210-1503"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.classic"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v20111214-2030"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v20111214-2030"
+         unpack="false"/>
+
+   <plugin
+         id="ch.qos.logback.slf4j"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v20120123-1500"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.orion.server.logback.config"
+         download-size="0"
+         install-size="0"
+         version="0.2.0.v20111007-1713"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.slf4j.api"
+         download-size="0"
+         install-size="0"
+         version="1.6.4.v20120130-2120"
+         unpack="false"/>
+
+   <plugin
+         id="org.json"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v201011060100"
+         unpack="false"/>
+
+   <plugin
+         id="javax.servlet"
+         download-size="0"
+         install-size="0"
+         version="3.0.0.v201112011016"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.httpclient"
+         download-size="0"
+         install-size="0"
+         version="3.1.0.v201012070820"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.codec"
+         download-size="0"
+         install-size="0"
+         version="1.3.0.v201101211617"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.io"
+         download-size="0"
+         install-size="0"
+         version="2.0.1.v201105210651"
+         unpack="false"/>
+
+   <plugin
+         id="com.jcraft.jsch"
+         download-size="0"
+         install-size="0"
+         version="0.1.44.v201101211721"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jgit"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.201206130900-r"
+         unpack="false"/>
+
+   <plugin
+         id="org.slf4j.jcl"
+         download-size="0"
+         install-size="0"
+         version="1.6.4.v20120130-2120"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.orion.server.user.securestorage"
+         download-size="0"
+         install-size="0"
+         version="0.2.0.v20120210-1503"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.orion.server.git"
+         download-size="0"
+         install-size="0"
+         version="0.4.0.v20120611-0901"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.orion.server.hosting"
+         download-size="0"
+         install-size="0"
+         version="0.2.0.v20120615-1625"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xerces"
+         download-size="0"
+         install-size="0"
+         version="2.9.0.v201101211617"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xml.serializer"
+         download-size="0"
+         install-size="0"
+         version="2.7.1.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xml.resolver"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="javax.xml"
+         download-size="0"
+         install-size="0"
+         version="1.3.4.v201005080400"
+         unpack="false"/>
+
+</feature>

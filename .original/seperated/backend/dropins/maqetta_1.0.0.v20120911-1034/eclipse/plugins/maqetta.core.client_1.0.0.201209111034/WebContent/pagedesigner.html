@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title id="title_id"></title>
+	<meta charset="utf-8" />
+	<meta http-equiv="Cache-Control" CONTENT="no-store, no-cache, must-revalidate">
+	<meta http-equiv="Cache-Control" CONTENT="post-check=0, pre-check=0">
+	<meta http-equiv="Pragma" CONTENT="no-cache">
+	<style type="text/css">
+		@import url("app/davinci/workbench.css?f940814741d832335cf203555c0e7236f56925ad");
+		html, body {
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+	<script type="text/javascript" src="app/dojo/dojo.js?f940814741d832335cf203555c0e7236f56925ad" data-dojo-config="
+		async: true,
+		parseOnLoad: true,
+		modulePaths:{'preview':'../preview', 'system':'../system'},
+		aliases:[['i18n', 'dojo/i18n']],
+		cacheBust: 'f940814741d832335cf203555c0e7236f56925ad',
+		ioPublish:true
+	"></script>
+	<script type="text/javascript">
+		require(["dijit/dijit", "davinci/davinci" ], function () {
+			require(["dojo/i18n!davinci/nls/webContent", "davinci/version", "dojo/domReady!"], function (webContent, version) {
+				  dojo.byId("load_screen").innerHTML = webContent.loadingMaqetta;
+				  dojo.byId("title_id").text = webContent.pageDesignerTitle;
+			});
+
+			var Workbench = require("davinci/Workbench"),
+				Runtime = require("davinci/Runtime"),
+				revResource = require("davinci/review/model/resource/root")
+		
+			var resetWorkbenchState = dojo.queryToObject(dojo.doc.location.search.substr((dojo.doc.location.search[0] === "?" ? 1 : 0))).resetWorkbenchState;
+			if(resetWorkbenchState){
+				Workbench.clearWorkbenchState().then(function(){
+					location.href=".";	
+				});
+				
+			}	
+				
+				
+			Runtime.loadPlugins();
+	 		Runtime.initialPerspective="davinci.ve.pageDesign";
+
+			require(["dojo/i18n!davinci/nls/webContent", "dojo/domReady!"], function (webContent) {
+				var run = function() {
+					var userInfo;
+					
+					var result = Runtime.getUser();
+					
+                    if (result) {
+                        Runtime.userName=result.userId;
+                        Runtime.userEmail=result.email;
+					} else {
+						//do nothing
+					}
+					if (!result || result.userId=='maqettaUser') {
+						Runtime.isLocalInstall=true;
+					}
+					
+					// set up for review and commenting...
+					var designerName  = dojo.cookie("davinci_designer");
+					var reviewVersion = dojo.cookie("davinci_version");
+					dojo.cookie("davinci_designer", null, {expires: -1, path:"/"});
+					dojo.cookie("davinci_version", null, {expires: -1, path:"/"});
+					
+					/* This code loads the first file from a given review.  The review comes in as a URL parameter from an invitation.
+					   
+					This could be refactored, but I'm not sure where to put it. If we need this functionality somewhere else, then we can decide where to move it.
+					Leaving here for now.
+					
+					*/
+					var loadReviews = function(){
+						if (reviewVersion && designerName) {
+							revResource.findVersion(designerName, reviewVersion).then(function(node) {
+								if (node) {
+									// if we found a node, then the user clicked a review link to get here, so
+									// let's open review files (up to a cap)
+									var cap = 1; 
+									node.getChildren(function(children){
+										dojo.forEach(children, function(child, index){
+											if (index < cap) {
+												davinci.Workbench.openEditor({
+													fileName: child,
+													content: node.getText()
+												});
+											}
+										})
+									});
+								}
+							});
+						}
+					}
+					
+					Workbench.run().then(loadReviews);
+				};
+
+				// Display a warning dialog for unsupported browsers
+				if (!(dojo.isFF >= 4 || dojo.isChrome >= 5 || dojo.isSafari >= 5.1)) {
+					var unsupportedDialog = new require("dijit/Dialog")({
+						id: "unsupportedBrowserDialog",
+						title: webContent.unsupportedBrowser,
+						content: ["<p>"+ webContent.unsupportedNote +"</p>",
+								"<div class='maqButtonArea'>",
+								"   <button dojoType='dijit.form.Button' type='submit'>",
+								webContent.buttonContinue,
+								"   </button>",
+								"</div>"
+								].join(" "),
+						execute: function() { run(); }
+					});
+					unsupportedDialog.show();
+				} else {
+					run();
+				}
+			});
+
+			dojo.addOnUnload(Workbench.unload);
+		});
+	</script>
+	<link rel="shortcut icon" href="app/davinci/img/maqetta.png" />
+	</head>
+
+	<body id='maqBody' class="claro">
+		<div class="loading"><table><tr><td id="load_screen"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;</td></tr></table></div>
+		<div id="davinci_app">
+			<div id="davinci_top_bar">
+				<div id="davinci_top_bar_main">
+					<div id="davinci_user_container">
+						<span id="davinci_main_menu"> </span>
+					</div>
+					<span class="maq_banner_name_box">
+						<span class="maq_banner_logo"></span>
+						<span class="maq_banner_name">Maqetta</span>
+					</span>
+					<span id="maq_banner_editor_commands"></span>
+				</div>
+				<div id="davinci_top_bar_divider"></div>
+			</div>
+			<div id="mainBody"></div>
+		</div>
+		<div id="contentassist" class="contentassist"></div>
+	</body>
+</html>

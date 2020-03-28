@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.orion.client.feature"
+      label="%featureName"
+      version="0.5.0.v20120416-1234-27G0DZRDKQDrNa8MvXe"
+      provider-name="%providerName"
+      
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.orion.doc.isv"
+         download-size="0"
+         install-size="0"
+         version="0.2.0.v20120530-1934"/>
+
+   <plugin
+         id="org.eclipse.orion.client.core"
+         download-size="0"
+         install-size="0"
+         version="0.2.0.v20120622-1536"/>
+
+   <plugin
+         id="org.eclipse.orion.client.editor"
+         download-size="0"
+         install-size="0"
+         version="0.1.0.v20120618-1815"/>
+
+   <plugin
+         id="org.dojotoolkit"
+         download-size="0"
+         install-size="0"
+         version="1.6.1.v201108161253"/>
+
+   <plugin
+         id="org.eclipse.orion.client.users"
+         download-size="0"
+         install-size="0"
+         version="0.2.0.v20120605-1950"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.orion.client.git"
+         download-size="0"
+         install-size="0"
+         version="0.2.0.v20120620-1957"/>
+
+   <plugin
+         id="org.eclipse.orion.doc.user"
+         download-size="0"
+         install-size="0"
+         version="0.2.0.v20120413-2008"/>
+
+</feature>

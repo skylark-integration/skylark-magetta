@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.orion"
+      label="%featureName"
+      version="0.3.0.v20110811-1056-17J-7QJ2Liz-ZFNNOtTMNLyGSJft"
+      provider-name="%providerName"
+      
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.orion.server.feature"
+         version="0.5.0.v20120601-1132-7O857uFKy94wjIniHC6kKsa5VVO9"/>
+
+   <includes
+         id="org.eclipse.orion.server.search.feature"
+         version="0.5.0.v20120504-1555-7b82-FBFqSfqa5g4Et57J"/>
+
+   <includes
+         id="org.eclipse.orion.server.authentication.feature"
+         version="0.5.0.v20120525-1301-27S7ICcNBHLBiIh7SaXP"/>
+
+   <includes
+         id="org.eclipse.orion.client.feature"
+         version="0.5.0.v20120416-1234-27G0DZRDKQDrNa8MvXe"/>
+
+</feature>

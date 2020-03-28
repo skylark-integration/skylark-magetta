@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Untitled</title>
+<script type="text/javascript" src="lib/dojo/dojo/dojo.js" data-dojo-config="'parseOnLoad':true,'async':true,'packages':[{'name':'gridx','location':'../gridx'},{'name':'clipart','location':'../../clipart'},{'name':'maqettaSamples','location':'../../../samples'},{'name':'maqetta','location':'../../maqetta'},{'name':'shapes','location':'../../shapes'},{'name':'zazl','location':'../../zazl'},{'name':'widgets','location':'../../custom'}]"></script>
+<script type="text/javascript">
+require([
+  "dijit/dijit",
+  "dojo/parser",
+  "maqetta/space",
+  "maqetta/AppStates",
+  "dojox/mobile",
+  "dojox/mobile/deviceTheme",
+  "dojox/mobile/compat",
+  "dojo/hash",
+  "dojox/mobile/Button",
+  "dojox/mobile/CheckBox",
+  "dojox/mobile/ToggleButton",
+  "dojox/mobile/IconItem",
+  "dojox/mobile/IconContainer",
+  "dojox/io/xhrScriptPlugin",
+  "dojo/data/ItemFileReadStore",
+  "dojox/mobile/DataCarousel",
+  "dojox/mobile/TextBox",
+  "shapes/Text",
+  "shapes/Rectangle",
+  "dijit/form/Button"
+]);
+</script>
+<style>@import "themes/claro/claro.css";@import "lib/dojo/dojox/mobile/themes/common/domButtons/DomButtonRedBadge.css";@import "lib/shapes/shapes.css";@import "app.css";
+</style>
+<script type="text/javascript" src="app.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"></meta>
+</head>
+<body class="claro" data-maq-device="android_480x800" data-maq-flow-layout="false" data-maq-ws="collapse" id="myapp" data-maq-appstates="{}" data-maq-orientation="portrait">
+<div id="settings" class="view mblView">
+  <script type="text/javascript">
+        function setRef(id, addrRef) {
+                var widget = dijit.byId("infoGroup");
+                var target = dijit.byId(id);
+                var model = widget.get("ref");
+                target.set("ref", model[addrRef]);
+            }
+    </script>
+    <h1 dojoType="dojox.mobile.Heading"> Data Binding Example<div label="Home" data-dojo-type="dojox.mobile.ToolBarButton" style="width: 69px; height: 24px;" toogle="false" back="false" sync="false" arrow="left"></div>
+</h1>
+    <form name="testForm">
+    <div class="field-title">Ship to - Bill to Address</div>
+        <div class="spacer" style="width: 755px; height: 65px;"></div>
+        <button data-dojo-type="dojox.mobile.Button" class="mblBlueButton" onclick="setRef('addrGroup', 'ShipTo')">
+          Ship To</button>
+        <button data-dojo-type="dojox.mobile.Button" class="mblBlueButton" onclick="setRef('addrGroup', 'BillTo')">
+          Bill To</button>
+        <br/>
+        <div class="spacer"></div>
+        <button name="reset1" type="button" dojoType="dojox.mobile.Button" class="mblBlueButton" onclick="dijit.byId('infoGroup').get('ref').reset();">Reset</button>
+    </form>
+</div>
+<span data-dojo-type="shapes.Text" style="font-size: 14px; position: absolute; z-index: 900; left: 147px; top: 269px;" content="Text"></span><span data-dojo-type="shapes.Rectangle" width="80" height="80" style="position: absolute; z-index: 900; width: 86px; height: 86px; left: 287.5px; top: 278px;"></span>
+<input type="button" data-dojo-type="dijit.form.Button" intermediateChanges="false" label="Button" iconClass="dijitNoIcon" style="position: absolute; z-index: 900; left: 429px; top: 260.09999990463257px;"></input>
+</body>
+</html>

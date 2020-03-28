@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.orion.server.authentication.feature"
+      label="%featureName"
+      version="0.5.0.v20120525-1301-27S7ICcNBHLBiIh7SaXP"
+      provider-name="%providerName"
+      
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.orion.server.feature" version="0.1.0.qualifier"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.orion.server.authentication.form.core"
+         download-size="0"
+         install-size="0"
+         version="0.3.0.v20120619-1547"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.orion.server.authentication.formopenid"
+         download-size="0"
+         install-size="0"
+         version="0.3.0.v20120619-1547"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.orion.server.authentication.openid.core"
+         download-size="0"
+         install-size="0"
+         version="0.3.0.v20120618-1550"
+         unpack="false"/>
+
+   <plugin
+         id="org.cyberneko.html"
+         download-size="0"
+         install-size="0"
+         version="1.9.14.v201105210654"/>
+
+   <plugin
+         id="org.openid4java"
+         download-size="0"
+         install-size="0"
+         version="0.9.5.v201105210655"/>
+
+   <plugin
+         id="org.eclipse.orion.server.authentication.basic"
+         download-size="0"
+         install-size="0"
+         version="0.2.0.v20120605-2104"
+         unpack="false"/>
+
+</feature>

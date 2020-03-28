@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config transient="false" date="1347385439918">
+	<site enabled="true" updateable="true" policy="USER-EXCLUDE" url="platform:/base/">
+		<feature id="org.eclipse.orion.server.search.feature" url="features/org.eclipse.orion.server.search.feature_0.5.0.v20120504-1555-7b82-FBFqSfqa5g4Et57J/" version="0.5.0.v20120504-1555-7b82-FBFqSfqa5g4Et57J">
+		</feature>
+		<feature id="org.eclipse.orion.server.authentication.source.feature" url="features/org.eclipse.orion.server.authentication.source.feature_0.5.0.v20120525-1301/" version="0.5.0.v20120525-1301">
+		</feature>
+		<feature id="org.eclipse.orion.client.feature" url="features/org.eclipse.orion.client.feature_0.5.0.v20120416-1234-27G0DZRDKQDrNa8MvXe/" version="0.5.0.v20120416-1234-27G0DZRDKQDrNa8MvXe">
+		</feature>
+		<feature id="org.eclipse.orion.client.source.feature" url="features/org.eclipse.orion.client.source.feature_0.5.0.v20120416-1234/" version="0.5.0.v20120416-1234">
+		</feature>
+		<feature id="org.eclipse.orion.base.feature" url="features/org.eclipse.orion.base.feature_0.5.0.v20120530-1904-9I9BG2kFiv5_Lvf_qKyWEim/" version="0.5.0.v20120530-1904-9I9BG2kFiv5_Lvf_qKyWEim">
+		</feature>
+		<feature id="maqetta.zazl.feature" url="features/maqetta.zazl.feature_1.0.0.201209111034-777g7l773573L55539B/" version="1.0.0.201209111034-777g7l773573L55539B">
+		</feature>
+		<feature id="org.eclipse.orion.server.feature" url="features/org.eclipse.orion.server.feature_0.5.0.v20120601-1132-7O857uFKy94wjIniHC6kKsa5VVO9/" version="0.5.0.v20120601-1132-7O857uFKy94wjIniHC6kKsa5VVO9">
+		</feature>
+		<feature id="org.eclipse.orion" url="features/org.eclipse.orion_0.3.0.v20110811-1056-17J-7QJ2Liz-ZFNNOtTMNLyGSJft/" version="0.3.0.v20110811-1056-17J-7QJ2Liz-ZFNNOtTMNLyGSJft">
+		</feature>
+		<feature id="org.eclipse.orion.server.source.feature" url="features/org.eclipse.orion.server.source.feature_0.5.0.v20120601-1132/" version="0.5.0.v20120601-1132">
+		</feature>
+		<feature id="org.eclipse.orion.server.authentication.feature" url="features/org.eclipse.orion.server.authentication.feature_0.5.0.v20120525-1301-27S7ICcNBHLBiIh7SaXP/" version="0.5.0.v20120525-1301-27S7ICcNBHLBiIh7SaXP">
+		</feature>
+		<feature id="maqetta.orion.feature" url="features/maqetta.orion.feature_1.0.1/" version="1.0.1">
+		</feature>
+		<feature id="org.eclipse.orion.server.search.source.feature" url="features/org.eclipse.orion.server.search.source.feature_0.5.0.v20120504-1555/" version="0.5.0.v20120504-1555">
+		</feature>
+	</site>
+</config>

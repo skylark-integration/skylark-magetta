@@ -1,0 +1,1 @@
+{"version":"1.7","specVersion":"0.8","helper":"maq-metadata-dojo/dojox/mobile/ThemeHelper","themeSets":[{"name":"custom_default","desktopTheme":"claro","mobileTheme":[{"theme":"custom","device":"Android"},{"theme":"custom","device":"BlackBerry"},{"theme":"custom","device":"iPad"},{"theme":"custom","device":"iPhone"},{"theme":"custom","device":"other"}]}]}

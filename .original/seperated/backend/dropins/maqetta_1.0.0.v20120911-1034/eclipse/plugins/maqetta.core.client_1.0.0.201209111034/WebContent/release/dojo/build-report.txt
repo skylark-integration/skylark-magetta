@@ -1,0 +1,2261 @@
+Build started: Tue Sep 11 2012 10:35:24 GMT-0700 (PDT)
+Build application version: 1.7.0dev (23930)
+Messages:
+info(100) Assumed module uses legacy loader API.
+	module: dojox/mobile/app/_FormWidget
+	module: dojox/jsonPath/query
+	module: dojox/data/demos/widgets/PicasaViewList
+	module: dojox/lang/oo/mixin
+	module: dojox/wire/XmlWire
+	module: dojox/xmpp/sasl
+	module: dojox/lang/oo/general
+	module: dojox/secure/capability
+	module: dojox/mobile/app/_event
+	module: dojox/storage/manager
+	module: dojox/widget/gauge/AnalogArcIndicator
+	module: dojox/layout/BorderContainer
+	module: dojox/layout/dnd/PlottedDnd
+	module: dojox/lang/async/timeout
+	module: dojox/wire/CompositeWire
+	module: dojox/secure/fromJson
+	module: dojox/wire/ml/XmlHandler
+	module: dojox/data/demos/widgets/FlickrViewList
+	module: dojox/lang/aspect/profiler
+	module: dojox/widget/FilePicker
+	module: dojox/mobile/app/_base
+	module: dojox/widget/gauge/AnalogArrowIndicator
+	module: dojox/lang/async
+	module: dojox/lang/aspect/timer
+	module: dojox/lang/oo/rearrange
+	module: dojox/mobile/app/_Widget
+	module: dojox/socket/Reconnect
+	module: dojox/wire/ml/Data
+	module: dojox/xmpp/TransportSession
+	module: dojox/lang/typed
+	module: dojox/wire/ml/Invocation
+	module: dojox/widget/gauge/AnalogNeedleIndicator
+	module: dojox/xmpp/ChatService
+	module: dojox/wire/TreeAdapter
+	module: dojox/xmpp/PresenceService
+	module: dojox/lang/aspect/tracer
+	module: dojox/wire/DataWire
+	module: dojox/widget/SortList
+	module: dojox/mobile/app/compat
+	module: dojox/data/restListener
+	module: dojox/xmpp/RosterService
+	module: dojox/drawing/plugins/drawing/Silverlight
+	module: dojox/widget/DocTester
+	module: dojox/storage/Provider
+	module: dojox/lang/observable
+	module: dojox/data/ItemExplorer
+	module: dojox/help/console
+	module: dojox/lang/oo/Decorator
+	module: dojox/secure/DOM
+	module: dojox/wire/ml/JsonHandler
+	module: dojox/widget/DataPresentation
+	module: dojox/widget/FeedPortlet
+	module: dojox/lang/async/topic
+	module: dojox/widget/RollingList
+	module: dojox/flash/_base
+	module: dojox/widget/gauge/BarIndicator
+	module: dojox/image/SlideShow
+	module: dojox/lang/aspect/memoizer
+	module: dojox/data/demos/widgets/FileView
+	module: dojox/xmpp/xmppSession
+	module: dojox/image/Gallery
+	module: dojox/storage/AirDBStorageProvider
+	module: dojox/widget/Iterator
+	module: dojox/storage/AirEncryptedLocalStorageProvider
+	module: dojox/layout/ext-dijit/layout/StackContainer-touch
+	module: dojox/lang/functional/listcomp
+	module: dojox/lang/functional/binrec
+	module: dojox/rails
+	module: dojox/wire/ml/DataStore
+	module: dojox/mobile/app/ImageView
+	module: dojox/widget/BarGauge
+	module: dojox/lang/functional/util
+	module: dojox/storage/BehaviorStorageProvider
+	module: dojox/lang/aspect/memoizerGuard
+	module: dojox/mobile/app/TextBox
+	module: dojox/lang/async/event
+	module: dojox/wire/ml/Action
+	module: dojox/storage/GearsStorageProvider
+	module: dojox/help/_base
+	module: dojox/mobile/app/ListSelector
+	module: dojox/lang/oo/aop
+	module: dojox/lang/functional/tailrec
+	module: dojox/wire/demos/TableContainer
+	module: dojox/sql/_crypto
+	module: dojox/lang/aspect
+	module: dojox/mobile/app/ImageThumbView
+	module: dojox/mobile/app/SceneAssistant
+	module: dojox/lang/aspect/counter
+	module: dojox/layout/dnd/Avatar
+	module: dojox/xmpp/util
+	module: dojox/wire/ml/Transfer
+	module: dojox/widget/Loader
+	module: dojox/storage/LocalStorageProvider
+	module: dojox/wire/TextAdapter
+	module: dojox/storage/AirFileStorageProvider
+	module: dojox/lang/functional/curry
+	module: dojox/storage/CookieStorageProvider
+	module: dojox/lang/functional/linrec
+	module: dojox/xmpp/widget/ChatSession
+	module: dojox/storage/WhatWGStorageProvider
+	module: dojox/data/demos/widgets/PicasaView
+	module: dojox/wire/ml/util
+	module: dojox/widget/AnalogGauge
+	module: dojox/lang/aspect/cflow
+	module: dojox/xmpp/bosh
+	module: dojox/widget/gauge/_Gauge
+	module: dojox/data/demos/stores/LazyLoadJSIStore
+	module: dojox/wire/Wire
+	module: dojox/wire/_base
+	module: dojox/editor/plugins/ResizeTableColumn
+	module: dojox/lang/functional/numrec
+	module: dojox/mobile/app/List
+	module: dojox/secure/sandbox
+	module: dojox/wire/ml/RestHandler
+	module: dojox/sql/_base
+	module: dojox/wire/TableAdapter
+	module: dojox/editor/plugins/SpellCheck
+	module: dojox/storage/_common
+	module: dojox/jq
+	module: dojox/wire/demos/WidgetRepeater
+	module: dojox/mobile/app/StageController
+	module: dojox/widget/DynamicTooltip
+	module: dojox/data/StoreExplorer
+	module: dojox/xmpp/UserService
+	module: dojox/lang/functional/zip
+	module: dojox/mobile/app/SceneController
+	module: dojox/lang/functional/multirec
+	module: dojox/wire/ml/Service
+	module: dojox/robot/recorder
+	module: dojox/mobile/app/AlertDialog
+	module: dojox/storage/FlashStorageProvider
+	module: dojox/lang/docs
+	module: dojox/lang/oo/Filter
+	module: dojox/image/ThumbnailPicker
+	module: orion/textview/global
+	module: davinci/skeletons/callbacks
+info(102) Optimizing module
+	module: dojox/grid/DataGrid
+	module: dijit/dijit-all
+	module: dijit/dijit
+	module: preview/singlepreview
+	module: dojo/dojo
+	module: davinci/davinci
+	module: davinci/review/view/CommentView
+	module: davinci/review/view/CommentExplorerView
+	module: davinci/davinci-common
+	module: davinci/ve/themeEditor/ThemeEditor
+info(106) Optimizing CSS.
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonCheckboxOn.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/ValuePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/RoundRect-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/EdgeToEdgeCategory.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/form/resources/FileUploader.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/form/resources/ListInput.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteUpArrow16.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Carousel.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/SpinWheel.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Button.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/EdgeToEdgeList.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Heading.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ToggleButton-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/GridLayout.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/TabBar-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/EnhancedGrid_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ProgressBar-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/View.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions/flip.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/RoundRectList-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/highlight/resources/pygments/autumn.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions/swap.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/common-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonTransparent29.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/ToggleButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/ProgressIndicator.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/android-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonOrangeBall.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/GridLayout.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/CollapsibleToolbar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Heading-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/charting/resources/Legend.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/ComboBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGreenBall.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/RadioButton-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/EdgeToEdgeList.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Switch.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/ToggleButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Slider-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/custom-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Button.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/ProgressBar-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/ToolBarButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/DatePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonCheckboxOff-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/TextBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlackRightArrow16-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/iphone.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/widget/DocTester/DocTester.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/RoundRect.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ListItem-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/ComboBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Opener-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/Common.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/RoundRect-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/IconMenu-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/TimePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/ComboBox-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/Pagination_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/Breadcrumb.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/widget/Toaster/Toaster.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/ToggleButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleDownArrow.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGreenCircleArrow.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/RoundRectCategory.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/base.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/form/resources/TriStateCheckBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/TextBox-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/FixedSplitter.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/TextArea-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/TabBar-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/Pagination.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlackUpArrow16-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteLeftArrow16-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/ListItem.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGrayMinus-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/common.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/DnD_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/resources/Grid.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ValuePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/highlight/resources/pygments/borland.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/SpinWheel-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/InsertAnchor.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Slider.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGrayKnob.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/widget/Wizard/Wizard.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/resources/tundraGrid.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlackDownArrow16.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/claro/Filter.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/dijit/Calendar-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/atom/widget/templates/css/HtmlFeedViewerGrouping.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/Blockquote.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/TextBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/widget/Dialog/Dialog.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonYellowStar-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Button-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ToolBarButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGrayPlus-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/form/resources/FilePickerTextBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/ToolBarButton-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/resources/Grid_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/drawing/resources/drawing.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions/swirl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/SpinWheel.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonCheckboxOff.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/claroEnhancedGrid.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/calc/resources/Standard.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/IconContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/base-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Carousel.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonCheckboxOn-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/resources/nihiloGrid.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/TextArea.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/image/resources/Magnifier.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/ValuePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/widget/FilePicker/FilePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions/reveal.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/data/demos/picasaDemo.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/RoundRectList.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGreenBadge.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/RoundRect.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Tooltip-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/RadioButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/form/resources/BusyButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/RadioButton-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/TextArea.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/gantt/resources/gantt.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGrayCross-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/widget/SortList/SortList.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Opener-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/android.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/IconContainer_keyframes.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonRedCircleMinus.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlueBadge.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Tooltip-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/ValuePicker-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Opener.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/TabBar-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlackLeftArrow16.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/EdgeToEdgeList.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/layout/resources/DndGridContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/RoundRectCategory.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/ValuePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/SpinWheel-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/IconContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/Preview.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/base.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Overlay-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/highlight/resources/pygments/manni.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteUpArrow16-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/dijit/base.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/ScrollablePane.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonRedCirclePlus.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleGrayButton-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/EdgeToEdgeCategory.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonRedCircleMinus-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/atom/widget/templates/css/HtmlFeedEntryViewer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleGreenPlus.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/highlight/resources/pygments/colorful.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/ToolBarButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/IconMenu.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/common.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlueCircleArrow.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/image/resources/ThumbnailPicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/widget/ColorPicker/ColorPicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlackDownArrow16-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/InsertEntity.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/ScrollablePane.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/dijit/Calendar-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Button.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGreenCirclePlus.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/layout/resources/FloatingPane.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/ComboBox-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/RoundRect.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/FindReplace.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGrayKnob-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/GridLayout.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/RadioButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/atom/widget/templates/css/HtmlFeedViewerEntry.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/Filter_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/highlight/resources/pygments/friendly.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/CheckBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/common-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/editorPlugins.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/TextArea-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Overlay.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/ProgressBar-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/base.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/base-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGreenCircleMinus.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions/dissolve.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/layout/resources/GridContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/TextArea.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGrayArrow.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/dijit/ColorPicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/CheckBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/PageIndicator-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/ToolBarButton-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/sketch/resources/sketch.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/SpellCheck.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/DatePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonRedCross-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/RoundRectCategory.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/RadioButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGrayStar-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/FixedSplitter.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteDownArrow.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/IconContainer-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/image/resources/Gallery.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonColorButtons-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGrayArrow-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/View.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ValuePicker-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ComboBox-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/IconContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/highlight/resources/pygments/murphy.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/IconMenu-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Heading-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/RoundRectList-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/SearchBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Tooltip.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/ProgressIndicator-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonRedBall-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/ProgressBar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Switch-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Overlay.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/LocalImage.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Accordion-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Opener.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhitePlus.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/TextArea-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions/fade.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/TabBar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteSearch-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Tooltip.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/SimpleDialog-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Button-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleGreenPlus-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/dijit/Calendar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteRightArrow16-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteSearch.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/PageIndicator-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/SpinWheel-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlackCircleCross.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/SimpleDialog-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/RadioButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/treemap/themes/DrillDownUp.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/AutoSave.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/PageIndicator.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlackRightArrow16.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonTransparent30.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/FixedSplitter.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/RoundRect.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/TabBar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/av/widget/resources/Player.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/RoundRectList-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Overlay-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/iphone-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonRedBall.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Button.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/highlight/resources/pygments/pastie.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/drawing/resources/toolbar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/RadioButton-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/iphone-app.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonRedCross.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Tooltip.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGreenBadge-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/CheckBox-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGrayPlus.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlueBall-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/PasteFromWord.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/highlight/resources/pygments/default.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Switch-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/image/resources/SlideShow.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Carousel.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonRedBadge-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ScrollablePane.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleGrayButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/widget/Portlet/Portlet.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/SpinWheel-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/TimePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Overlay-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Button-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Opener-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/highlight/resources/pygments/perldoc.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlueBall.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/CheckBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonRedBadge.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/widget/Calendar/Calendar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/SearchBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGrayRoundRect.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mdnd/resources/dnd.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGreenBall-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Accordion-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ToolBarButton-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions/cover.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/base-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/TimePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleOrangeButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonRedCirclePlus-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlueCirclePlus-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/TextBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonRedCircleArrow-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/PageIndicator.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlueCircleMinus.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleOrangeButton-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/ProgressIndicator-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/TextBox-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/RoundRectList.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/atom/widget/templates/css/HtmlFeedEntryEditor.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Overlay.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/ComboBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Slider-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlackLeftArrow16-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/ToolBarButton-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/highlight/resources/pygments/emacs.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonOrangeBall-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/Filter.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/highlight/resources/pygments/native.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/TextBox-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/blackberry.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/form/resources/UploaderFileList.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Heading.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/FixedSplitter.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/EdgeToEdgeList.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonTransparent19.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteRightArrow16.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Accordion.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGrayMinus.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/widget/Pager/Pager.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/DnD.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/EdgeToEdgeCategory.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteDownArrow16.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/CheckBox-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/ProgressIndicator-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/claro/EnhancedGrid.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/Sorter_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/tundra/Filter.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonDarkBlueCheck-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/highlight/resources/pygments/trac.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/GridLayout.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Switch.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Switch-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/calc/resources/Common.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/resources/soriaGrid.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/ListItem.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/SearchBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/form/resources/Rating.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/ToggleButton-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/PageIndicator-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/tundraEnhancedGrid.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Slider-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/base-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Heading.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ProgressIndicator.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/layout/resources/RadioGroup.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Tooltip-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/claro/Common.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteCheck-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions/cube.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/ValuePicker-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/ListItem.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/ProgressBar-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/layout/resources/ExpandoPane.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/ListItem-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/tundra/EnhancedGrid.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Switch.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlueCircleMinus-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGreenCircleMinus-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/PageIndicator.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteArrow.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/html/resources/ellipsis.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/RoundRectList-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/calc/resources/GraphPro.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/TextArea.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/common-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlueCircleArrow-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/IconContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ipad-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/RoundRectList.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Slider.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGrayCross.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlackUpArrow16.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/TabBar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlueCirclePlus.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/SimpleDialog-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteLeftArrow16.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/atom/widget/templates/css/EntryHeader.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGrayRoundRect-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/wire/demos/TableContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ToggleButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/widget/FisheyeList/FisheyeList.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions/slidev.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Accordion.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/View.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/form/resources/FileInput.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/wire/demos/markup/flickrDemo.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/RoundRect-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/dijit/Calendar-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/treemap/themes/MobileTreeMap.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/widget/RollingList/RollingList.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/PageBreak.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/SimpleDialog.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/layout/resources/ToggleSplitter.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/dijit/Calendar-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions/slide.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Slider.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGrayStar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ProgressIndicator-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/IconMenu-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/IconMenu.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/RadioButton-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/form/resources/CheckedMultiSelect.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/EdgeToEdgeCategory.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/widget/UpgradeBar/UpgradeBar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteMinus-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/treemap/themes/TreeMap.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/dijit/ColorPalette.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/android-app-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ProgressBar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/Sorter.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/Save.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/dijit/Calendar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/TextBox-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/TabBar-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/EnhancedGrid.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Slider-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/resources/claroGrid.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/ProgressIndicator.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/SearchBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/image/resources/image.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions/zoomIn.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/DatePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/ListItem-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/SpinWheel.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/layout/resources/ResizeHandle.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/tundra/Sorter.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions/zoomOut.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/widget/TitleGroup/TitleGroup.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/PageTurning.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/View.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/IconMenu.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Heading.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/TimePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/ShowBlockNodes.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/ProgressBar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/DatePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/IconContainer-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ListItem.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/SimpleDialog-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteDownArrow-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Accordion-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/ToolBarButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/form/resources/RangeSlider.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/IconMenu.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/common-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/StatusBar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonDarkBlueCheck.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/CheckBox-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/CheckBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteCross-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Heading-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/SimpleDialog.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Accordion.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/ScrollablePane.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/RoundRect-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ipad.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/drawing/resources/GreekPalette.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/android-app.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGreenCirclePlus-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/common.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/layout/resources/ScrollPane.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/SimpleDialog.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/EdgeToEdgeCategory-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Tooltip.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleRedCross.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteDownArrow16-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/TabBar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/TextBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/IconMenu-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Button-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/Smiley.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Heading-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/ProgressBar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/dijit/dijit.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleRedCross-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Accordion-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/tundra/Common.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/ToggleButton-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/SimpleDialog.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/gauges/_Gauge.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/common.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Switch.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/CheckBox-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/RoundRectCategory-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/RoundRectList.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteCheck.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/custom.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/SpinWheel.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlackCircleCross-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteMinus.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions/scaleIn.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Switch-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/image/resources/Badge.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonGreenCircleArrow-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/ToggleButton-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhitePlus-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/base.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Overlay-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteUpArrow.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/ValuePicker-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/ProgressIndicator.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleGreenButton-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonYellowStar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/highlight/resources/pygments/fruity.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonColorButtons.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteUpArrow-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions/coverv.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions/scaleOut.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/atom/widget/templates/css/HtmlFeedViewer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Opener.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/PageIndicator.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/SafePaste.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/image/resources/Lightbox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/IconContainer-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/ComboBox-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/dijit/Calendar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/layout/resources/RotatorContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/RoundRectCategory.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/widget/Loader/Loader.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Slider.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Accordion.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonRedCircleArrow.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/geo/charting/resources/Map.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/iphone-app-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/highlight/resources/highlight.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/TextArea-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonBlueBadge-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/editor/plugins/resources/css/TextColor.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/treemap/themes/GroupLabel.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/Tooltip-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleDownArrow-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Opener-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/Carousel.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/blackberry-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteArrow-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/transitions/revealv.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/ComboBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/android/PageIndicator-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/iphone/Opener.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonWhiteCross.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/common/domButtons/DomButtonSilverCircleGreenButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/ListItem-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/dijit/Calendar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/custom/IconContainer-compat.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/grid/enhanced/resources/Common_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojox/mobile/themes/blackberry/Overlay.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/Dialog_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/layout/TabContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/layout/AccordionContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/layout/AccordionContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/form/Slider_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/form/Slider_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/form/TimeTextBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/layout/AccordionContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/soria.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/nihilo.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/ColorPalette.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/Editor.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/form/Common_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/form/Checkbox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/layout/TabContainer_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/TimePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/icons/editorIcons.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/form/Slider.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/Calendar_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/form/Slider.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/Dialog.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/Tree.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/tundra.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/TitlePane_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/form/Checkbox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/form/Slider_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/ColorPalette.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/Editor.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/claro_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/Menu.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/Toolbar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/icons/editorIcons_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/Common.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/Menu_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/TitlePane.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/Calendar_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/TitlePane.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/layout/AccordionContainer_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/Menu_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/Dialog.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/Editor_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/Toolbar_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/Menu_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/TitlePane.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/ColorPalette.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/Tree.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/form/Button.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/soria_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/form/Common.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/Menu.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/layout/TabContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/TimePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/form/Button_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/form/TimeTextBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/ColorPalette.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/TitlePane_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/claro.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/ProgressBar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/form/Button_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/layout/TabContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/Common.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/Toolbar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/layout/TabContainer_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/InlineEditBox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/Menu_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/Dialog_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/Editor_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/layout/SplitContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/form/Select.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/Editor.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/form/Common.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/layout/BorderContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/layout/TabContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/form/Checkbox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/layout/ContentPane.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/layout/AccordionContainer_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/layout/ContentPane.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/Dialog.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/Tree_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/layout/TabContainer_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/dijit_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/TimePicker_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/layout/BorderContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/TitlePane_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/Calendar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/ProgressBar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/Common.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/Toolbar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/ProgressBar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/Editor.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/form/Button_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/form/RadioButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/form/Button.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/icons/commonIcons_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/icons/commonIcons.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/TimePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/document.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/tundra_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/form/Common.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/form/Button.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/Tree.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/form/Button.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/TimePicker.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/form/Common.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/Dialog_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/layout/TabContainer_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/Menu.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/Dialog.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/layout/ContentPane.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/Calendar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/Tree_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/Tree.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/ProgressBar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/form/Slider.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/Menu.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/Editor_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/Tree_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/Calendar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/Editor_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/TimePicker_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/dijit.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/layout/BorderContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/Calendar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/layout/AccordionContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/TitlePane_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/form/NumberSpinner.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/form/Select.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/form/Checkbox.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/form/Select.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/layout/BorderContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/form/Select.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/Calendar_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/Common.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/nihilo_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/layout/SplitContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/form/Slider_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/TitlePane.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/claro/form/RadioButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/TimePicker_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/TimePicker_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/layout/SplitContainer.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/form/Slider.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/form/RadioButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/form/RadioButton.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/Dialog_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/soria/Toolbar.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/nihilo/Calendar_rtl.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dijit/themes/tundra/layout/ContentPane.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojo/_firebug/firebug.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojo/resources/dojo.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/dojo/resources/dnd.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/orion/textview/annotations.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/orion/textview/tooltip.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/orion/textview/textview.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/orion/editor/editor.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/orion/editor/default-theme.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/orion/textview/rulers.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/davinci/claroToaster.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/davinci/review/resources/Comment.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/davinci/syntaxColors.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/davinci/workbench.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/davinci/ui/editor/textstyler.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/davinci/ui/editor/htmlStyles.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/davinci/ui.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/davinci/ve/resources/Menu.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/davinci/ve/resources/content.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/davinci/ve/themeEditor/content.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/davinci/propview.css
+	file: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/davinci/davinci.css
+info(107) Package Version:
+	package: dojox; version: 1.8.0dev
+	package: dijit; version: 1.8.0dev
+	package: dojo; version: 1.8.0dev
+warn(201) Cycle detected in layer dependencies.
+	module: davinci/davinci
+warn(205) Module not tagged as pure AMD yet it contains AMD API applications.
+	module: preview/singlepreview
+	module: preview/silhouetteiframe
+	module: system/resource
+	module: system/FileTypeFilter
+	module: orion/editor/textMateStyler
+	module: orion/textview/textView
+	module: orion/editor/regex
+	module: orion/editor/cssContentAssist
+	module: orion/textview/undoStack
+	module: orion/editor/editorFeatures
+	module: orion/editor/jsContentAssist
+	module: orion/editor/htmlGrammar
+	module: orion/textview/tooltip
+	module: orion/textview/eventTarget
+	module: orion/textview/projectionTextModel
+	module: orion/editor/htmlContentAssist
+	module: orion/textview/i18n
+	module: orion/editor/mirror
+	module: orion/textview/keyBinding
+	module: orion/textview/textDND
+	module: orion/textview/rulers
+	module: orion/editor/editor
+	module: orion/editor/contentAssist
+	module: orion/textview/textModel
+	module: orion/textview/i18nUtil
+	module: orion/textview/annotations
+	module: orion/editor/asyncStyler
+	module: davinci/html/html.plugin
+	module: davinci/ve/actions/EditValueAction
+	module: davinci/ve/commands/ModifyRichTextCommand
+	module: davinci/library
+	module: davinci/ve/actions/OtherAction
+	module: davinci/workbench/ViewLite
+	module: davinci/js/JSFunctionCall
+	module: davinci/ve/widgets/MultiInputDropDown
+	module: davinci/js/JSLiteral
+	module: davinci/commands/Command
+	module: davinci/actions/DownloadAction
+	module: davinci/ve/widgets/MultiTypeStore
+	module: davinci/html/CSSAtRule
+	module: davinci/ve/VisualEditor
+	module: davinci/ve/themeEditor/SelectTool
+	module: davinci/workbench/WidgetLite
+	module: davinci/ve/widgets/MutableStore
+	module: davinci/de/resource
+	module: davinci/html/CSSEditorContext
+	module: davinci/ve/commands/ChangeThemeCommand
+	module: davinci/ui.plugin
+	module: davinci/ve/actions/RotateDeviceAction
+	module: davinci/review/model/Resource
+	module: davinci/ve/prefs/HTMLEditPreferences
+	module: davinci/ve/actions/DeleteAction
+	module: davinci/css
+	module: davinci/ve/commands/MoveCommand
+	module: davinci/html/HTMLComment
+	module: davinci/ve/actions/ModifyState
+	module: davinci/ui/ProjectSelection
+	module: davinci/ve/actions/CutAction
+	module: davinci/ve/palette/DataStoreDragSource
+	module: davinci/Workbench
+	module: davinci/ve/actions/MoveBackwardAction
+	module: davinci/ve/tools/PasteTool
+	module: davinci/ve/palette/PaletteFolder
+	module: davinci/ve/views/SwitchingStyleView
+	module: davinci/ui/widgets/FileFieldDialog
+	module: davinci/version
+	module: davinci/ve/commands/EventCommand
+	module: davinci/ve/ve.plugin
+	module: davinci/ui/ModelEditor
+	module: davinci/review/drawing/shapes/_ShapeCommon
+	module: davinci/ve/widgets/Cascade
+	module: davinci/ve/actions/ShowAction
+	module: davinci/html/ui/ImageViewer
+	module: davinci/review/model/resource/Folder
+	module: davinci/ve/actions/AlignAction
+	module: davinci/review/editor/ReviewEditor
+	module: davinci/ui/widgets/OpenFile
+	module: davinci/html/HTMLModel
+	module: davinci/ve/actions/ViewSplitVMenuAction
+	module: davinci/ui/widgets/TransformTreeMixin
+	module: davinci/workbench/EditorContainer
+	module: davinci/js/JSUnparsedRegion
+	module: davinci/ve/widgets/WidgetToolBar
+	module: davinci/ve/widgets/ColorPicker
+	module: davinci/workbench/Explorer
+	module: davinci/ui/SaveAsWidgetForm
+	module: davinci/ui/UserLibraries
+	module: davinci/html/CSSFile
+	module: davinci/skeletons/ThemeHelper
+	module: davinci/review/drawing/tools/_ToolCommon
+	module: davinci/ve/actions/ViewSplitHMenuAction
+	module: davinci/review/actions/TextAction
+	module: davinci/ui/ThemeSetsDialog
+	module: davinci/review/actions/_ReviewNavigatorCommon
+	module: davinci/actions/LogoutAction
+	module: davinci/js/ui/JavaScriptOutline
+	module: davinci/ve/actions/MoveToBackAction
+	module: davinci/js/JSForIn
+	module: davinci/ui/widgets/ThemeSetSelection
+	module: davinci/ve/actions/PropertyAction
+	module: davinci/ve/themeEditor/metadata/CSSDescriptorProvider
+	module: davinci/review/actions/RestartVersionAction
+	module: davinci/ui/Resource
+	module: davinci/XPathUtils
+	module: davinci/ve/utils/ImageUtils
+	module: davinci/review/model/resource/File
+	module: davinci/html/CSSCombinedSelector
+	module: davinci/ve/palette/Palette
+	module: davinci/review/drawing/tools/ExchangeTool
+	module: davinci/review/actions/_DrawingCommon
+	module: davinci/js/JSArrayInitializer
+	module: davinci/ve/palette/ImageDragSource
+	module: davinci/model/Path
+	module: davinci/ve/utils/GeomUtils
+	module: davinci/ui/NewTheme
+	module: davinci/ui/widgets/ProjectDataStore
+	module: davinci/ve/RebaseDownload
+	module: davinci/review/drawing/tools/scaffolds/ArrowScaffold
+	module: davinci/ve/actions/StyleAction
+	module: davinci/ve/actions/AddState
+	module: davinci/js/JSArrayAccess
+	module: davinci/js/JSModel
+	module: davinci/ui/widgets/AddFiles
+	module: davinci/html/CSSSelector
+	module: davinci/ui/OpenThemeDialog
+	module: davinci/review/drawing/shapes/Text
+	module: davinci/js/JSWith
+	module: davinci/review/drawing/shapes/shapes
+	module: davinci/ve/Snap
+	module: davinci/ve/widgets/FontComboBox
+	module: davinci/actions/StickyNoteAction
+	module: davinci/ve/commands/ModifyRuleCommand
+	module: davinci/review/widgets/PublishWizard
+	module: davinci/html/ui/CSSOutline
+	module: davinci/review/actions/EditVersionAction
+	module: davinci/html/CSSRule
+	module: davinci/workbench/ViewPart
+	module: davinci/review/widgets/CommentForm
+	module: davinci/actions/Action
+	module: davinci/review/actions/CloseVersionAction
+	module: davinci/ui/widgets/ThemeStore
+	module: davinci/model/parser/Tokenizer
+	module: davinci/review/Review
+	module: davinci/ui/Download
+	module: davinci/davinci
+	module: davinci/js/JSConditionalExpression
+	module: davinci/ve/widgets/FontDataStore
+	module: davinci/ve/ThemeModifier
+	module: davinci/ve/GenericWidget
+	module: davinci/html/ui/HTMLOutline
+	module: davinci/js/JSDebugger
+	module: davinci/ui/widgets/ArrayStore
+	module: davinci/actions/UserNameAction
+	module: davinci/ve/actions/EventAction
+	module: davinci/js/JSDo
+	module: davinci/ve/themeEditor/ThemeColor
+	module: davinci/actions/CopyAction
+	module: davinci/actions/SelectThemeAction
+	module: davinci/ve/widgets/EventSelection
+	module: davinci/html/CSSImport
+	module: davinci/ve/_Widget
+	module: davinci/review/drawing/Surface
+	module: davinci/ve/tools/_Tool
+	module: davinci/html/CSSProperty
+	module: davinci/ve/commands/StyleCommand
+	module: davinci/js/JSCase
+	module: davinci/html/PHPBlock
+	module: davinci/ui/dnd/DragManager
+	module: davinci/ve/tools/CreateTool
+	module: davinci/ve/themeEditor/metadata/CSSThemeProvider
+	module: davinci/UserActivityMonitor
+	module: davinci/ui/widgets/ObjectStore
+	module: davinci/ve/ChooseParent
+	module: davinci/ve/Focus
+	module: davinci/ve/tools/SelectTool
+	module: davinci/ve/commands/AddCommand
+	module: davinci/js/ui/FormatOptions
+	module: davinci/js/JSUnaryExpression
+	module: davinci/ve/actions/SelectParentAction
+	module: davinci/ve/palette/PaletteItem
+	module: davinci/html/ui/CSSEditor
+	module: davinci/actions/PasteAction
+	module: davinci/ui/ProjectDataStore
+	module: davinci/maqetta/space
+	module: davinci/js/JSElement
+	module: davinci/skeletons/CreateTool
+	module: davinci/js/js.plugin
+	module: davinci/html/CSSModel
+	module: davinci/ui/Rename
+	module: davinci/ve/widgets/ColorStore
+	module: davinci/review/widgets/ReviewToolBarText
+	module: davinci/model/Factory
+	module: davinci/ui/widgets/ProjectToolbar
+	module: davinci/review/drawing/tools/CreateTool
+	module: davinci/js/JSPrefixPostfixExpression
+	module: davinci/ve/themeEditor/themeEditor.plugin
+	module: davinci/ve/actions/_ReorderAction
+	module: davinci/review/view/CommentView
+	module: davinci/html/HTMLAttribute
+	module: davinci/ui/ProjectPreferences
+	module: davinci/ve/PageEditor
+	module: davinci/review/actions/DeleteVersionAction
+	module: davinci/html/HTMLFile
+	module: davinci/ve/actions/UnselectAllAction
+	module: davinci/workbench/_ToolbaredContainer
+	module: davinci/js/JSExit
+	module: davinci/ve/actions/MoveToFrontAction
+	module: davinci/review/actions/ArrowAction
+	module: davinci/ve/actions/ViewSourceMenuAction
+	module: davinci/review/model/resource/Empty
+	module: davinci/ve/actions/ViewSourceAction
+	module: davinci/html/HTMLItem
+	module: davinci/js/JSIf
+	module: davinci/ve/widget
+	module: davinci/js/ui/JavaScriptEditor
+	module: davinci/ve/RebuildPage
+	module: davinci/review/view/CommentExplorerView
+	module: davinci/ui/widgets/List
+	module: davinci/ve/actions/ContextAction
+	module: davinci/model/resource/Marker
+	module: davinci/js/JSTry
+	module: davinci/review/widgets/OpenReviewDialog
+	module: davinci/ui/Editor
+	module: davinci/js/JSNameReference
+	module: davinci/actions/RedoAction
+	module: davinci/ve/themeEditor/commands/StateChangeCommand
+	module: davinci/ui/dnd/DragSource
+	module: davinci/ve/utils/CssUtils
+	module: davinci/actions/OpenThemeEditor
+	module: davinci/js/JSBinaryOperation
+	module: davinci/js/JSFunction
+	module: davinci/actions/SaveAsWidget
+	module: davinci/commands/CommandStack
+	module: davinci/ve/actions/DuplicateAction
+	module: davinci/review/Color
+	module: davinci/ve/palette/HtmlWidgets
+	module: davinci/ve/utils/StyleArray
+	module: davinci/js/Format
+	module: davinci/js/JSFieldReference
+	module: davinci/js/JSWhile
+	module: davinci/ui/widgets/NewFile
+	module: davinci/ve/HTMLWidget
+	module: davinci/ve/actions/EditPropertiesAction
+	module: davinci/html/HTMLElement
+	module: davinci/ui/widgets/ThemeSelection
+	module: davinci/ui/widgets/DavinciModelTreeModel
+	module: davinci/js/JSFile
+	module: davinci/davinci-common
+	module: davinci/ve/actions/RemoveState
+	module: davinci/review/actions/EllipseAction
+	module: davinci/review/drawing/tools/scaffolds/EllipseScaffold
+	module: davinci/html/ui/HTMLEditor
+	module: davinci/js/JSBlock
+	module: davinci/actions/SelectLayoutAction
+	module: davinci/review/drawing/tools/scaffolds/TextScaffold
+	module: davinci/js/JSSwitch
+	module: davinci/commands/CompoundCommand
+	module: davinci/html/ui/HTMLOutlineModel
+	module: davinci/html/CSSParser
+	module: davinci/model/resource/Folder
+	module: davinci/ve/actions/ReplaceAction
+	module: davinci/ui/widgets/NewHTMLFileOptions
+	module: davinci/review/actions/RectAction
+	module: davinci/ve/actions/_LayerAction
+	module: davinci/html/ui/CSSOutlineModel
+	module: davinci/ve/commands/ReparentCommand
+	module: davinci/review/widgets/Comment
+	module: davinci/ve/widgets/MetaDataStore
+	module: davinci/ui/widgets/OutlineTree
+	module: davinci/ve/actions/SelectAncestorAction
+	module: davinci/js/JSObjectLiteral
+	module: davinci/ve/views/DataStoresView
+	module: davinci/ve/widgets/ChangeWillModify
+	module: davinci/workbench/ProblemsView
+	module: davinci/ve/views/StatesView
+	module: davinci/actions/UndoAction
+	module: davinci/ve/widgets/WidgetProperties
+	module: davinci/ui/widgets/DocileDialog
+	module: davinci/html/HTMLText
+	module: davinci/ui/about
+	module: davinci/ve/VisualEditorOutline
+	module: davinci/ve/metadata
+	module: davinci/review/editor/Context
+	module: davinci/ve/actions/CopyAction
+	module: davinci/review/drawing/tools/SelectTool
+	module: davinci/ve/themeEditor/VisualThemeEditor
+	module: davinci/ve/input/SmartInput
+	module: davinci/ui/widgets/NewFolder
+	module: davinci/Runtime
+	module: davinci/js/JSEmptyExpression
+	module: davinci/model/Model
+	module: davinci/ve/actions/ViewDesignAction
+	module: davinci/review/model/store/GeneralReviewReadStore
+	module: davinci/html/CSSEditorWidget
+	module: davinci/skeletons/Helper
+	module: davinci/js/JSParenExpression
+	module: davinci/review/drawing/shapes/Rectangle
+	module: davinci/ve/Context
+	module: davinci/workbench/OutlineView
+	module: davinci/review/drawing/shapes/Ellipse
+	module: davinci/ve/actions/HideAction
+	module: davinci/de/widgets/NewDijit
+	module: davinci/ve/actions/ChooseDeviceAction
+	module: davinci/ve/actions/MoveForwardAction
+	module: davinci/commands/OrderedCompoundCommand
+	module: davinci/review/drawing/shapes/Arrow
+	module: davinci/maqetta/AppStates
+	module: davinci/review/model/ReviewFileTreeModel
+	module: davinci/Theme
+	module: davinci/ve/actions/_SelectAncestorAction
+	module: davinci/ve/themeEditor/ThemeEditor
+	module: davinci/workbench/Preferences
+	module: davinci/review/actions/OpenVersionAction
+	module: davinci/ve/utils/URLRewrite
+	module: davinci/repositoryinfo
+	module: davinci/ve/commands/ModifyCommand
+	module: davinci/review/model/resource/root
+	module: davinci/ui/TextEditor
+	module: davinci/ve/actions/SurroundAction
+	module: davinci/js/JSFor
+	module: davinci/ui/widgets/ProjectSelection
+	module: davinci/ve/themeEditor/commands/ThemeEditorCommand
+	module: davinci/ve/themeEditor/Context
+	module: davinci/workbench/PropertyEditor
+	module: davinci/ve/widgets/ColorPickerFlat
+	module: davinci/ve/actions/ArrangeAction
+	module: davinci/ve/commands/RemoveCommand
+	module: davinci/ve/themeEditor/metadata/query
+	module: davinci/js/JSVariableDeclaration
+	module: davinci/js/JSObjectLiteralField
+	module: davinci/review/drawing/tools/scaffolds/RectangleScaffold
+	module: davinci/ve/widgets/Background
+	module: davinci/review/review.plugin
+	module: davinci/review/actions/ViewFileAction
+	module: davinci/js/JSLabel
+	module: davinci/ve/widgets/CommonProperties
+	module: davinci/html/HtmlFileXPathAdapter
+	module: davinci/review/actions/DeleteAnnotationAction
+	module: davinci/js/JSComment
+	module: davinci/de/DijitTemplatedGenerator
+	module: davinci/ve/widgets/HTMLStringUtil
+	module: davinci/js/JSExpression
+	module: davinci/ve/States
+	module: davinci/html/HTMLParser
+	module: davinci/review/drawing/tools/scaffolds/_ScaffoldCommon
+	module: davinci/model/resource/Resource
+	module: davinci/js/ui/JSOutlineModel
+	module: davinci/ve/themeEditor/commands/SubwidgetChangeCommand
+	module: davinci/ve/input/RichTextInput
+	module: davinci/model/resource/File
+	module: davinci/review/drawing/tools/HighlightTool
+	module: davinci/model/Comment
+	module: davinci/ui/widgets/_ToggleTreeNode
+	module: davinci/ve/commands/ModifyAttributeCommand
+	module: davinci/ve/DijitWidget
+	module: davinci/ve/actions/_CutCopyAction
+	module: davinci/html/CSSElement
+	module: davinci/ve/commands/ResizeCommand
+	module: davinci/ui/DownloadSelected
+	module: davinci/ve/widgets/BackgroundDialog
+	module: davinci/html/CSSFragment
+	module: davinci/review/model/ReviewTreeModel
+	module: davinci/ve/actions/PasteAction
+	module: davinci/review/drawing/tools/scaffolds/scaffolds
+	module: davinci/review/actions/PublishAction
+	module: davinci/ui/SelectProjectDialog
+	module: davinci/ui/Dialog
+	module: davinci/js/JSVariableFragment
+	module: davinci/ve/actions/EnableApplicationStates
+	module: davinci/js/JSBranch
+	module: davinci/ve/ObjectWidget
+	module: davinci/ui/NewProject
+	module: davinci/ui/TextStyler
+warn(209) Missing or empty package.json.
+	filename: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/preview/package.json
+	filename: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/system/package.json
+	filename: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/orion/package.json
+	filename: /home/jhpedemonte/maqetta/build/I201209111012/plugins/maqetta.core.client/maqetta.core.client_1.0.0.201209111034/WebContent/davinci/package.json
+warn(216) dojo/has plugin resource could not be resolved during build-time.
+	plugin resource id: touch?dojox/gesture/tap; reference module id: dojox/treemap/DrillDownUp
+	plugin resource id: dojo-parser?:dojo/_base/window; reference module id: dojox/mvc/parserExtension
+	plugin resource id: dojo-mobile-parser?:dojo/parser; reference module id: dojox/mvc/parserExtension
+	plugin resource id: dojo-parser?:dojox/mobile/parser; reference module id: dojox/mvc/parserExtension
+	plugin resource id: dojo-firebug?./_firebug/firebug; reference module id: dojo/main
+	plugin resource id: dom-addeventlistener?:./aspect; reference module id: dojo/on
+	plugin resource id: host-browser?dom-addeventlistener?:../on:; reference module id: dojo/request/watch
+warn(224) A plugin dependency was encountered but there was no build-time plugin resolver.
+	module: dojox/mobile/TimePicker; plugin: dojox/mobile/_PickerChooser
+	module: dojox/mobile/DatePicker; plugin: dojox/mobile/_PickerChooser
+	module: dojo/request/node; plugin: dojo/node
+	module: dojo/request/node; plugin: dojo/node
+	module: dojo/request/node; plugin: dojo/node
+	module: dojo/request/node; plugin: dojo/node
+	module: dojo/request; plugin: dojo/request/default
+	module: dojo/request/registry; plugin: dojo/request/default
+	module: davinci/ui.plugin; plugin: davinci/css
+	module: davinci/review/review.plugin; plugin: davinci/css
+Layer Contents:
+davinci/davinci-common:
+	dijit/form/nls/validate
+	dijit/form/TextBox
+	dijit/DialogUnderlay
+	dijit/_HasDropDown
+	dijit/_MenuBase
+	dojo/i18n
+	dijit/form/templates/DropDownButton.html
+	dijit/form/_TextBoxMixin
+	dojo/dnd/autoscroll
+	dojo/dnd/TimedMoveable
+	dojox/form/resources/PasswordValidator.html
+	dijit/form/templates/Button.html
+	dojox/main
+	dijit/templates/MenuItem.html
+	dijit/Tooltip
+	dijit/form/DropDownButton
+	dijit/layout/_ContentPaneResizeMixin
+	dijit/nls/loading
+	dojo/dnd/Moveable
+	dijit/MenuItem
+	dojox/form/PasswordValidator
+	dojo/dnd/Mover
+	dojox/validate/regexp
+	dijit/templates/Menu.html
+	dijit/form/Button
+	dijit/form/Form
+	dojox/form/nls/PasswordValidator
+	dijit/templates/Tooltip.html
+	dojo/regexp
+	dijit/DropDownMenu
+	dijit/form/_FormMixin
+	dijit/Menu
+	dijit/layout/ContentPane
+	dijit/form/templates/ValidationTextBox.html
+	dijit/form/templates/TextBox.html
+	dijit/_KeyNavContainer
+	dijit/layout/utils
+	dijit/templates/Dialog.html
+	dojo/html
+	dijit/form/ValidationTextBox
+	davinci/davinci-common
+	dijit/form/_ButtonMixin
+	davinci/repositoryinfo
+	dojo/dnd/common
+	dijit/Dialog
+	dijit/_DialogMixin
+	davinci/version
+	dijit/nls/common
+
+dojo/dojo:
+	dojo/_base/fx
+	dojo/dom-form
+	dojo/promise/tracer
+	dojo/errors/RequestError
+	dojo/_base/html
+	dojo/_base/kernel
+	dojo/io-query
+	dojo/_base/Deferred
+	dojo/NodeList-dom
+	dojo/query
+	dojo/has
+	dojo/_base/loader
+	dojo/json
+	dojo/_base/declare
+	dojo/dom
+	dojo/_base/browser
+	dojo/selector/acme
+	dojo/errors/RequestTimeoutError
+	dojo/dom-style
+	dojo/dom-geometry
+	dojo/dom-prop
+	dojo/when
+	dojo/dom-attr
+	dojo/dom-construct
+	dojo/request/xhr
+	dojo/keys
+	dojo/domReady
+	dojo/_base/lang
+	dojo/Evented
+	dojo/request/util
+	dojo/mouse
+	dojo/topic
+	dojo/_base/xhr
+	dojo/dojo
+	dojo/_base/unload
+	dojo/Deferred
+	dojo/_base/NodeList
+	dojo/_base/Color
+	dojo/promise/instrumentation
+	dojo/selector/_loader
+	dojo/promise/Promise
+	dojo/request/watch
+	dojo/on
+	dojo/_base/sniff
+	dojo/errors/create
+	dojo/_base/array
+	dojo/_base/json
+	dojo/_base/window
+	dojo/dom-class
+	dojo/_base/config
+	dojo/_base/event
+	dojo/main
+	dojo/sniff
+	dojo/request/handlers
+	dojo/ready
+	dojo/aspect
+	dojo/_base/connect
+	dojo/errors/CancelError
+
+davinci/review/view/CommentView:
+	davinci/review/widgets/templates/Comment.html
+	davinci/review/widgets/CommentForm
+	davinci/review/Review
+	davinci/review/view/CommentView
+	davinci/review/Color
+	davinci/review/widgets/Comment
+
+davinci/davinci:
+	davinci/ui/widgets/ProjectToolbar
+	davinci/nls/webContent
+	dijit/Tooltip
+	davinci/workbench/OutlineView
+	davinci/ve/actions/templates/EnableApplicationStates.html
+	davinci/workbench/templates/Preferences.html
+	dijit/MenuSeparator
+	dijit/CalendarLite
+	davinci/review/model/resource/root
+	dojox/grid/_View
+	dijit/PopupMenuItem
+	dijit/form/_FormSelectWidget
+	davinci/ve/widgets/MultiInputDropDown
+	davinci/ve/utils/ImageUtils
+	dojox/grid/_SelectionPreserver
+	davinci/html/ui/ImageViewer
+	davinci/ve/DijitWidget
+	davinci/ve/widgets/EventSelection
+	davinci/ve/actions/EditValueAction
+	dijit/form/_ListMouseMixin
+	davinci/ve/actions/MoveToBackAction
+	dojo/date/locale
+	davinci/ve/tools/CreateTool
+	dijit/layout/templates/_ScrollingTabControllerButton.html
+	davinci/ve/ThemeModifier
+	davinci/js/JSExpression
+	dijit/_MenuBase
+	dijit/layout/_ContentPaneResizeMixin
+	dijit/form/ComboBox
+	dojox/grid/DataGrid
+	dojo/data/util/sorter
+	dojo/cldr/nls/number
+	davinci/model/Comment
+	dijit/layout/templates/ScrollingTabController.html
+	davinci/review/actions/CloseVersionAction
+	davinci/ve/commands/AddCommand
+	davinci/ve/actions/_CutCopyAction
+	dijit/layout/ContentPane
+	davinci/js/JSElement
+	davinci/de/widgets/NewDijit
+	dijit/layout/templates/TabContainer.html
+	davinci/ui/SelectProjectDialog
+	davinci/model/parser/Tokenizer
+	davinci/ve/actions/ModifyState
+	orion/textview/keyBinding
+	davinci/ui/templates/ThemeSetsDialog.html
+	dojox/timing/_base
+	orion/editor/nls/messages
+	dojo/dnd/Avatar
+	orion/textview/textView
+	davinci/review/model/resource/Empty
+	davinci/html/HTMLText
+	davinci/ui/widgets/templates/projectToolbar.html
+	dojo/html
+	davinci/review/widgets/OpenReviewDialog
+	davinci/review/actions/ViewFileAction
+	davinci/ve/actions/DeleteAction
+	davinci/ui/ThemeSetsDialog
+	dojox/grid/_ViewManager
+	davinci/ve/actions/RemoveState
+	davinci/ve/themeEditor/metadata/CSSThemeProvider
+	davinci/ve/actions/EnableApplicationStates
+	dojox/html/ellipsis
+	davinci/de/widgets/templates/NewDijit.html
+	davinci/commands/OrderedCompoundCommand
+	davinci/version
+	dojo/data/ItemFileReadStore
+	dojo/dnd/Selector
+	davinci/ui/templates/Rename.html
+	davinci/actions/LogoutAction
+	davinci/ve/actions/ReplaceAction
+	davinci/html/CSSFile
+	dijit/MenuBarItem
+	dojox/data/QueryReadStore
+	davinci/model/resource/Resource
+	dijit/form/CheckBox
+	dojox/html/entities
+	davinci/ui/widgets/FileFieldDialog
+	dijit/form/DateTextBox
+	dijit/Calendar
+	dojox/form/Uploader
+	dijit/form/Button
+	davinci/review/model/ReviewTreeModel
+	davinci/actions/SelectLayoutAction
+	davinci/ve/palette/Palette
+	orion/editor/editorFeatures
+	davinci/ve/utils/CssUtils
+	davinci/Runtime
+	davinci/html/ui/HTMLOutline
+	dojox/timing/doLater
+	davinci/html/CSSAtRule
+	davinci/html/CSSParser
+	davinci/review/actions/nls/actions
+	davinci/html/ui/CSSEditor
+	davinci/ui/widgets/NewHTMLFileOptions
+	davinci/ve/actions/UnselectAllAction
+	dojox/main
+	dojox/grid/_Scroller
+	davinci/ve/commands/ModifyCommand
+	dijit/form/_ComboBoxMenuMixin
+	dijit/form/ToggleButton
+	dijit/templates/MenuSeparator.html
+	dijit/MenuItem
+	davinci/ui/templates/ThemeSetsRenameDialog.html
+	dijit/layout/_TabContainerBase
+	dijit/Dialog
+	davinci/ve/widgets/ChangeWillModify
+	dijit/form/templates/ComboButton.html
+	davinci/ve/actions/ViewSourceMenuAction
+	davinci/css
+	davinci/ve/actions/OtherAction
+	orion/textview/tooltip
+	dijit/TooltipDialog
+	orion/textview/nls/messages
+	davinci/ve/widgets/FontDataStore
+	dijit/form/_SearchMixin
+	davinci/review/widgets/PublishWizard
+	davinci/review/model/resource/File
+	davinci/ve/Focus
+	davinci/ve/commands/ResizeCommand
+	davinci/ve/palette/ImageDragSource
+	davinci/js/JSFile
+	davinci/ui/widgets/templates/NewFolder.html
+	dojo/dnd/Moveable
+	davinci/ve/widgets/templates/WidgetToolBar.html
+	davinci/ve/widgets/MutableStore
+	davinci/ui/nls/ui
+	dijit/form/RangeBoundTextBox
+	davinci/ve/commands/ChangeThemeCommand
+	davinci/ve/commands/RemoveCommand
+	dojo/dnd/Container
+	davinci/ui/ModelEditor
+	davinci/workbench/WidgetLite
+	dojox/color/_base
+	dojo/dnd/common
+	davinci/actions/UndoAction
+	davinci/ve/palette/PaletteFolder
+	davinci/ui/templates/ChooseDevice.html
+	orion/textview/i18nUtil
+	davinci/actions/SaveAsWidget
+	davinci/ve/widgets/WidgetProperties
+	davinci/ve/widgets/templates/ChangeWillModify.html
+	dijit/tree/_dndContainer
+	davinci/review/actions/_ReviewNavigatorCommon
+	davinci/ve/RebuildPage
+	davinci/ve/commands/StyleCommand
+	davinci/workbench/nls/workbench
+	davinci/ui/widgets/AddFiles
+	davinci/ui/templates/OpenThemeDialog.html
+	davinci/ui/widgets/templates/NewFile.html
+	dijit/Tree
+	dijit/form/_TextBoxMixin
+	orion/editor/contentAssist
+	dijit/form/_ToggleButtonMixin
+	dojox/grid/_RowSelector
+	davinci/model/Model
+	davinci/ui/Rename
+	dijit/form/MappedTextBox
+	dijit/templates/TreeNode.html
+	davinci/ve/ObjectWidget
+	davinci/js/JSModel
+	davinci/model/resource/Folder
+	dijit/form/_AutoCompleterMixin
+	dijit/layout/StackController
+	dojo/number
+	dijit/DialogUnderlay
+	davinci/ve/themeEditor/metadata/query
+	davinci/ve/actions/AddState
+	davinci/ve/actions/EditPropertiesAction
+	dijit/_WidgetsInTemplateMixin
+	dojo/DeferredList
+	dijit/form/templates/TextBox.html
+	davinci/ve/commands/EventCommand
+	dojox/widget/ColorPicker/ColorPicker.html
+	davinci/review/actions/EditVersionAction
+	dojox/layout/ResizeHandle
+	davinci/ui/SaveAsWidgetForm
+	davinci/review/actions/OpenVersionAction
+	dijit/layout/TabContainer
+	davinci/workbench/ViewLite
+	dijit/nls/loading
+	dojox/grid/_Events
+	davinci/ve/tools/_Tool
+	dojo/regexp
+	davinci/ve/utils/StyleArray
+	dijit/form/templates/ValidationTextBox.html
+	davinci/ve/commands/ReparentCommand
+	dojox/html/metrics
+	dojo/fx
+	davinci/ui/templates/UserLibraries.html
+	davinci/html/HtmlFileXPathAdapter
+	davinci/ui/widgets/ProjectSelection
+	davinci/ve/widgets/BackgroundDialog
+	davinci/ve/commands/MoveCommand
+	davinci/workbench/EditorContainer
+	davinci/html/CSSCombinedSelector
+	orion/textview/projectionTextModel
+	davinci/ve/actions/templates/ModifyState.html
+	orion/textview/eventTarget
+	dojo/dnd/Mover
+	dojo/store/util/SimpleQueryEngine
+	dijit/_HasDropDown
+	davinci/ui/widgets/templates/OpenFile.html
+	davinci/ve/widgets/ColorStore
+	dojox/grid/DataSelection
+	davinci/ve/HTMLWidget
+	davinci/workbench/Preferences
+	davinci/ve/widgets/ColorPickerFlat
+	dojox/widget/nls/ColorPicker
+	davinci/ve/actions/RotateDeviceAction
+	davinci/html/html.plugin
+	davinci/html/HTMLElement
+	davinci/ve/actions/PasteAction
+	davinci/Workbench
+	davinci/ui/widgets/OutlineTree
+	davinci/ve/template.html
+	davinci/html/CSSElement
+	dojo/colors
+	davinci/ve/views/SwitchingStyleView
+	davinci/ui.plugin
+	dojo/dnd/move
+	davinci/de/resource
+	davinci/ui/dnd/DragSource
+	dijit/PopupMenuBarItem
+	davinci/ve/commands/ModifyRuleCommand
+	davinci/ve/actions/SelectAncestorAction
+	davinci/Theme
+	dijit/templates/MenuItem.html
+	dijit/form/TextBox
+	davinci/ve/commands/ModifyRichTextCommand
+	davinci/ui/widgets/templates/FileFieldDialog.html
+	davinci/ui/widgets/OpenFile
+	davinci/review/view/nls/view
+	davinci/actions/RedoAction
+	davinci/actions/UserNameAction
+	davinci/js/ui/JSOutlineModel
+	dijit/layout/LayoutContainer
+	davinci/ui/templates/newtheme.html
+	dijit/form/nls/validate
+	dojo/cldr/supplemental
+	davinci/ve/widgets/ColorPicker
+	dijit/templates/Menu.html
+	davinci/html/CSSImport
+	orion/editor/cssContentAssist
+	davinci/ve/_Widget
+	davinci/ve/VisualEditor
+	dijit/_DialogMixin
+	dijit/form/_CheckBoxMixin
+	davinci/commands/CompoundCommand
+	davinci/ve/GenericWidget
+	davinci/ve/widgets/WidgetToolBar
+	davinci/js/js.plugin
+	davinci/ve/widgets/FontComboBox
+	davinci/ve/utils/URLRewrite
+	davinci/review/widgets/templates/OpenReviewDialog.html
+	dijit/Menu
+	davinci/ve/actions/MoveToFrontAction
+	dijit/layout/utils
+	davinci/ve/utils/GeomUtils
+	orion/editor/jsContentAssist
+	davinci/ve/actions/ViewSourceAction
+	davinci/review/widgets/templates/PublishWizard.html
+	dojo/i18n
+	davinci/ui/Download
+	davinci/ui/about
+	dojo/store/Memory
+	dijit/form/_DateTimeTextBox
+	davinci/ve/widgets/MetaDataStore
+	davinci/ui/dnd/DragManager
+	dijit/form/Select
+	davinci/html/CSSEditorWidget
+	dijit/form/templates/Select.html
+	davinci/ve/views/StatesView
+	dojo/data/ItemFileWriteStore
+	dojox/color
+	orion/textview/textDND
+	davinci/ve/actions/templates/AddState.html
+	preview/silhouetteiframe
+	davinci/model/resource/Marker
+	davinci/repositoryinfo
+	davinci/UserActivityMonitor
+	davinci/ve/actions/MoveForwardAction
+	davinci/ui/templates/SaveAsWidgetForm.html
+	dijit/form/nls/ComboBox
+	davinci/de/DijitTemplatedGenerator
+	davinci/html/CSSRule
+	davinci/ve/widgets/Cascade
+	davinci/ui/TextEditor
+	dijit/ToolbarSeparator
+	davinci/js/ui/JavaScriptOutline
+	davinci/ve/actions/ViewDesignAction
+	dijit/form/templates/DropDownButton.html
+	dijit/Toolbar
+	davinci/ve/actions/CopyAction
+	dojo/promise/all
+	davinci/ve/tools/PasteTool
+	davinci/ui/widgets/DavinciModelTreeModel
+	davinci/ve/PageEditor
+	dojox/grid/Selection
+	dijit/templates/MenuBarItem.html
+	davinci/ui/nls/common
+	dojo/cldr/nls/gregorian
+	dijit/CheckedMenuItem
+	davinci/ui/OpenThemeDialog
+	dojox/grid/_Grid
+	davinci/ve/widgets/CommonProperties
+	dijit/layout/TabController
+	dojox/form/resources/Uploader.html
+	davinci/actions/nls/actions
+	davinci/ve/actions/ViewSplitVMenuAction
+	davinci/ve/actions/_ReorderAction
+	dijit/form/DropDownButton
+	davinci/ve/newfile.template.html
+	davinci/html/HTMLItem
+	davinci/html/CSSProperty
+	dijit/form/templates/CheckBox.html
+	dojo/dnd/autoscroll
+	dijit/form/templates/DropDownBox.html
+	davinci/ui/widgets/templates/NewHTMLFileOptions.html
+	orion/textview/rulers
+	davinci/ui/widgets/NewFile
+	dijit/form/NumberTextBox
+	dojox/widget/ColorPicker
+	davinci/ve/prefs/HTMLEditPreferences
+	dijit/templates/CheckedMenuItem.html
+	davinci/html/HTMLFile
+	davinci/ve/Context
+	davinci/model/Factory
+	dojox/form/uploader/plugins/HTML5
+	davinci/ui/templates/SwitchLayout.html
+	davinci/ui/templates/SelectProjectDialog.html
+	davinci/review/actions/RestartVersionAction
+	davinci/model/resource/File
+	davinci/html/ui/HTMLOutlineModel
+	davinci/ve/nls/common
+	dijit/form/_ButtonMixin
+	dijit/form/templates/Button.html
+	dojox/form/nls/Uploader
+	davinci/ui/Resource
+	dojox/form/uploader/Base
+	davinci/actions/Action
+	dojo/dnd/TimedMoveable
+	dojox/widget/Toaster
+	davinci/ve/themeEditor/themeEditor.plugin
+	dijit/nls/common
+	davinci/ui/widgets/templates/ThemeSetSelection.html
+	dojo/dnd/Manager
+	davinci/html/ui/CSSOutline
+	dijit/templates/Tooltip.html
+	davinci/ve/widget
+	dijit/templates/TooltipDialog.html
+	dijit/templates/Calendar.html
+	dijit/tree/ForestStoreModel
+	davinci/workbench/_ToolbaredContainer
+	davinci/ui/widgets/DocileDialog
+	davinci/html/HTMLParser
+	davinci/ui/widgets/TransformTreeMixin
+	dojox/grid/_Builder
+	davinci/html/HTMLModel
+	davinci/ve/actions/SelectParentAction
+	davinci/ui/templates/NewProject.html
+	dojo/date
+	dojox/grid/cells
+	davinci/ve/ve.plugin
+	dojox/html/_base
+	dijit/_KeyNavContainer
+	davinci/review/actions/DeleteVersionAction
+	dijit/form/ComboButton
+	dojox/grid/cells/_base
+	orion/editor/htmlGrammar
+	davinci/ve/actions/ViewSplitHMenuAction
+	davinci/html/ui/HTMLEditor
+	davinci/html/CSSSelector
+	dijit/layout/StackContainer
+	orion/textview/annotations
+	davinci/review/model/store/GeneralReviewReadStore
+	davinci/ve/actions/CutAction
+	davinci/davinci
+	davinci/ve/actions/ArrangeAction
+	davinci/ui/NewProject
+	davinci/review/widgets/templates/MailFailureDialogContent.html
+	davinci/ve/actions/ChooseDeviceAction
+	davinci/maqetta/AppStates
+	davinci/review/actions/PublishAction
+	davinci/ve/VisualEditorOutline
+	davinci/review/model/Resource
+	dojox/grid/_RowManager
+	davinci/actions/DownloadAction
+	dojo/store/util/QueryResults
+	davinci/ve/actions/MoveBackwardAction
+	davinci/ve/tools/SelectTool
+	dojo/data/util/simpleFetch
+	davinci/ve/actions/_SelectAncestorAction
+	davinci/actions/SelectThemeAction
+	orion/textview/undoStack
+	davinci/ve/nls/ve
+	orion/textview/textModel
+	davinci/ve/palette/HtmlWidgets
+	davinci/ui/UserLibraries
+	dijit/form/ComboBoxMixin
+	dijit/tree/dndSource
+	davinci/ve/ChooseParent
+	davinci/html/PHPBlock
+	system/resource
+	davinci/ve/States
+	davinci/library
+	dijit/form/SimpleTextarea
+	orion/editor/editor
+	davinci/ui/widgets/_ToggleTreeNode
+	dijit/MenuBar
+	davinci/ui/widgets/ThemeSetSelection
+	davinci/review/review.plugin
+	dijit/form/_RadioButtonMixin
+	davinci/workbench/Explorer
+	dojox/form/uploader/FileList
+	davinci/ve/actions/DuplicateAction
+	davinci/html/HTMLComment
+	davinci/ui/Editor
+	orion/editor/regex
+	dojox/grid/_EditManager
+	davinci/workbench/ProblemsView
+	davinci/ui/DownloadSelected
+	dijit/DropDownMenu
+	davinci/review/view/CommentExplorerView
+	davinci/ve/widgets/HTMLStringUtil
+	dojox/validate/regexp
+	davinci/ui/Dialog
+	dijit/layout/templates/_TabButton.html
+	davinci/ui/NewTheme
+	davinci/commands/CommandStack
+	davinci/ui/templates/download.html
+	dijit/form/_FormMixin
+	davinci/ve/widgets/Background
+	davinci/html/CSSModel
+	davinci/review/model/resource/Folder
+	davinci/html/CSSEditorContext
+	davinci/actions/StickyNoteAction
+	dijit/templates/MenuBar.html
+	dojo/data/util/filter
+	dijit/form/Textarea
+	dijit/tree/TreeStoreModel
+	davinci/ve/Snap
+	dijit/tree/_dndSelector
+	dojox/grid/_Layout
+	dijit/form/RadioButton
+	davinci/ui/widgets/templates/TreeNode.html
+	davinci/js/ui/JavaScriptEditor
+	dijit/form/ValidationTextBox
+	davinci/html/HTMLAttribute
+	davinci/ve/input/SmartInput
+	davinci/ve/widgets/templates/BackgroundDialog.html
+	dojox/grid/_FocusManager
+	davinci/ve/actions/SurroundAction
+	davinci/ui/TextStyler
+	davinci/workbench/ViewPart
+	dijit/templates/Dialog.html
+	davinci/model/Path
+	davinci/ui/widgets/ThemeSelection
+	davinci/ve/RebaseDownload
+	dojo/cookie
+	dijit/templates/Tree.html
+	dijit/form/_ExpandingTextAreaMixin
+	davinci/ve/palette/PaletteItem
+	davinci/ui/widgets/NewFolder
+	dijit/_Templated
+	dijit/layout/ScrollingTabController
+	dojo/dnd/Source
+	dijit/form/_ComboBoxMenu
+	davinci/review/widgets/nls/widgets
+	davinci/XPathUtils
+	davinci/html/ui/CSSOutlineModel
+	davinci/ve/metadata
+	dijit/layout/BorderContainer
+	dijit/form/DataList
+	davinci/ui/widgets/templates/AddFiles.html
+	dojox/grid/resources/_Grid.html
+	dojox/grid/resources/View.html
+	dojox/grid/util
+	dijit/form/_ListBase
+	orion/editor/textMateStyler
+	davinci/ve/actions/ContextAction
+
+davinci/review/view/CommentExplorerView:
+
+preview/singlepreview:
+	dojo/uacss
+	dojo/dnd/move
+	dojo/text
+	dojo/cldr/nls/number
+	dijit/hccss
+	dijit/_Contained
+	dijit/form/HorizontalRule
+	dijit/_Container
+	dijit/a11yclick
+	dijit/form/_FormWidgetMixin
+	dojo/i18n
+	dijit/BackgroundIframe
+	dijit/form/_FormValueMixin
+	dojo/dnd/Mover
+	dijit/templates/MenuSeparator.html
+	dijit/form/nls/validate
+	dojo/Stateful
+	dojo/data/util/sorter
+	dojo/store/util/QueryResults
+	dojo/touch
+	dijit/_CssStateMixin
+	dojo/hccss
+	dojo/string
+	dijit/form/_FormValueWidget
+	dijit/form/Button
+	dijit/_KeyNavContainer
+	dojo/dnd/autoscroll
+	dijit/registry
+	dijit/Destroyable
+	dijit/_base/manager
+	dijit/a11y
+	dijit/form/templates/Button.html
+	dijit/templates/Tooltip.html
+	dijit/typematic
+	dijit/form/Select
+	dijit/Menu
+	dojo/regexp
+	dijit/MenuSeparator
+	preview/silhouetteiframe
+	dojo/dnd/common
+	dijit/place
+	dijit/DropDownMenu
+	dijit/_Widget
+	dojo/cache
+	dijit/_FocusMixin
+	dijit/_OnDijitClickMixin
+	dijit/focus
+	dijit/form/HorizontalRuleLabels
+	dijit/templates/MenuItem.html
+	dijit/main
+	dojo/number
+	dijit/form/_ButtonMixin
+	dijit/form/_FormWidget
+	dijit/MenuItem
+	dijit/templates/Menu.html
+	preview/nls/preview
+	dijit/_MenuBase
+	dijit/_TemplatedMixin
+	dojo/window
+	dijit/form/HorizontalSlider
+	dijit/_HasDropDown
+	dijit/Tooltip
+	dijit/form/_FormSelectWidget
+	preview/singlepreview
+	dijit/form/templates/HorizontalSlider.html
+	dijit/popup
+	dijit/form/templates/Select.html
+	dijit/_WidgetBase
+	dojo/dnd/Moveable
+
+dijit/dijit:
+	dojo/uacss
+	dojo/text
+	dijit/hccss
+	dijit/_Contained
+	dijit/Viewport
+	dojo/parser
+	dijit/_Container
+	dijit/a11yclick
+	dijit/_base/scroll
+	dijit/layout/_LayoutWidget
+	dijit/_base
+	dijit/form/_FormWidgetMixin
+	dijit/BackgroundIframe
+	dijit/form/_FormValueMixin
+	dojo/Stateful
+	dojo/touch
+	dijit/_CssStateMixin
+	dojo/_base/url
+	dojo/hccss
+	dojo/string
+	dijit/form/_FormValueWidget
+	dijit/registry
+	dijit/Destroyable
+	dijit/_base/manager
+	dijit/_base/place
+	dijit/WidgetSet
+	dijit/a11y
+	dijit/typematic
+	dijit/_base/focus
+	dijit/place
+	dijit/_Widget
+	dijit/_OnDijitClickMixin
+	dijit/_FocusMixin
+	dojo/cache
+	dijit/focus
+	dijit/_base/sniff
+	dijit/dijit
+	dijit/main
+	dojo/date/stamp
+	dijit/form/_FormWidget
+	dijit/_base/typematic
+	dijit/_base/popup
+	dijit/_TemplatedMixin
+	dijit/_base/wai
+	dojo/window
+	dijit/popup
+	dijit/_base/window
+	dijit/_WidgetBase
+
+dijit/dijit-all:
+	dijit/_editor/plugins/FontChoice
+	dijit/form/nls/validate
+	dijit/templates/CheckedMenuItem.html
+	dijit/form/TextBox
+	dojo/currency
+	dijit/DialogUnderlay
+	dijit/form/templates/ComboButton.html
+	dijit/layout/ScrollingTabController
+	dijit/_editor/html
+	dijit/_editor/nls/commands
+	dijit/_HasDropDown
+	dijit/tree/TreeStoreModel
+	dijit/_editor/plugins/EnterKeyHandling
+	dijit/_MenuBase
+	dojo/i18n
+	dijit/PopupMenuBarItem
+	dijit/tree/ForestStoreModel
+	dijit/layout/templates/AccordionButton.html
+	dijit/TitlePane
+	dijit/form/_ComboBoxMenuMixin
+	dijit/form/_SearchMixin
+	dijit/form/templates/DropDownButton.html
+	dijit/form/ToggleButton
+	dijit/form/NumberSpinner
+	dijit/form/Textarea
+	dijit/form/DateTextBox
+	dijit/form/ComboButton
+	dijit/layout/AccordionContainer
+	dijit/layout/SplitContainer
+	dijit/templates/Calendar.html
+	dijit/form/_AutoCompleterMixin
+	dijit/dijit-all
+	dijit/templates/ColorPalette.html
+	dijit/layout/templates/_ScrollingTabControllerButton.html
+	dijit/form/MappedTextBox
+	dijit/form/ComboBoxMixin
+	dijit/form/_TextBoxMixin
+	dojo/_base/query
+	dijit/form/SimpleTextarea
+	dijit/layout/templates/_TabButton.html
+	dijit/PopupMenuItem
+	dijit/_TimePicker
+	dijit/form/RadioButton
+	dijit/form/templates/HorizontalSlider.html
+	dijit/templates/TimePicker.html
+	dijit/InlineEditBox
+	dojo/dnd/autoscroll
+	dijit/form/_RadioButtonMixin
+	dijit/templates/TreeNode.html
+	dojo/dnd/TimedMoveable
+	dijit/layout/LinkPane
+	dijit/form/_ListMouseMixin
+	dijit/templates/Tree.html
+	dojo/cldr/monetary
+	dojo/cookie
+	dijit/form/templates/DropDownBox.html
+	dijit/ProgressBar
+	dijit/form/NumberTextBox
+	dijit/form/TimeTextBox
+	dijit/ColorPalette
+	dijit/form/templates/Button.html
+	dijit/form/CurrencyTextBox
+	dijit/templates/MenuItem.html
+	dijit/form/templates/CheckBox.html
+	dojo/cldr/nls/gregorian
+	dijit/form/templates/VerticalSlider.html
+	dijit/layout/LayoutContainer
+	dijit/Tooltip
+	dijit/templates/MenuSeparator.html
+	dijit/form/VerticalSlider
+	dijit/form/DropDownButton
+	dijit/templates/ProgressBar.html
+	dojo/date
+	dijit/layout/_ContentPaneResizeMixin
+	dijit/form/RangeBoundTextBox
+	dijit/_editor/RichText
+	dijit/nls/loading
+	dojo/dnd/Moveable
+	dijit/TooltipDialog
+	dojo/nls/colors
+	dojo/store/util/SimpleQueryEngine
+	dojo/cldr/nls/number
+	dijit/form/_ExpandingTextAreaMixin
+	dijit/MenuItem
+	dijit/MenuBarItem
+	dijit/layout/TabController
+	dojo/cldr/supplemental
+	dijit/MenuBar
+	dijit/ToolbarSeparator
+	dijit/layout/StackController
+	dijit/templates/TooltipDialog.html
+	dojo/dnd/Mover
+	dijit/form/HorizontalRule
+	dijit/layout/TabContainer
+	dijit/templates/Menu.html
+	dijit/_editor/nls/FontChoice
+	dijit/form/_Spinner
+	dijit/form/Button
+	dijit/layout/templates/TabContainer.html
+	dojo/dnd/move
+	dijit/form/Form
+	dijit/layout/_TabContainerBase
+	dojo/store/Memory
+	dijit/templates/Tooltip.html
+	dijit/Editor
+	dojo/cldr/nls/currency
+	dijit/Toolbar
+	dijit/layout/StackContainer
+	dojo/regexp
+	dijit/form/ComboBox
+	dijit/form/_FormMixin
+	dijit/_editor/plugins/LinkDialog
+	dijit/DropDownMenu
+	dijit/Menu
+	dijit/form/_CheckBoxMixin
+	dijit/layout/ContentPane
+	dijit/form/templates/ValidationTextBox.html
+	dijit/_KeyNavContainer
+	dijit/layout/utils
+	dijit/form/templates/TextBox.html
+	dijit/form/DataList
+	dijit/templates/Dialog.html
+	dijit/_editor/_Plugin
+	dijit/form/CheckBox
+	dijit/templates/MenuBar.html
+	dijit/tree/_dndSelector
+	dojo/html
+	dijit/_PaletteMixin
+	dijit/templates/TitlePane.html
+	dijit/form/ValidationTextBox
+	dijit/layout/BorderContainer
+	dojo/number
+	dijit/_WidgetsInTemplateMixin
+	dojo/data/util/filter
+	dijit/form/HorizontalRuleLabels
+	dijit/templates/MenuBarItem.html
+	dijit/form/FilteringSelect
+	dojo/data/util/sorter
+	dijit/form/_ButtonMixin
+	dojo/colors
+	dijit/form/templates/Spinner.html
+	dijit/tree/_dndContainer
+	dojo/date/locale
+	dijit/templates/InlineEditBox.html
+	dijit/form/VerticalRule
+	dijit/form/_FormSelectWidget
+	dijit/form/Select
+	dijit/_editor/range
+	dojo/store/util/QueryResults
+	dijit/form/_ListBase
+	dojo/DeferredList
+	dojo/dnd/common
+	dijit/CalendarLite
+	dijit/CheckedMenuItem
+	dijit/form/VerticalRuleLabels
+	dijit/Declaration
+	dijit/MenuSeparator
+	dijit/form/_ComboBoxMenu
+	dijit/layout/templates/ScrollingTabController.html
+	dijit/Dialog
+	dijit/form/MultiSelect
+	dijit/form/_DateTimeTextBox
+	dijit/form/_ToggleButtonMixin
+	dijit/Calendar
+	dijit/form/templates/Select.html
+	dijit/_editor/selection
+	dijit/form/nls/ComboBox
+	dojo/fx
+	dijit/_DialogMixin
+	dijit/nls/common
+	dijit/Tree
+	dijit/form/HorizontalSlider
+
+davinci/ve/themeEditor/ThemeEditor:
+	davinci/ve/themeEditor/SelectTool
+	davinci/ve/themeEditor/ThemeColor
+	davinci/ve/themeEditor/commands/StateChangeCommand
+	davinci/ve/themeEditor/VisualThemeEditor
+	davinci/ve/themeEditor/ThemeEditor
+	davinci/ve/themeEditor/commands/ThemeEditorCommand
+	davinci/ve/themeEditor/Context
+	davinci/ve/themeEditor/commands/SubwidgetChangeCommand
+
+dojox/grid/DataGrid:
+	dojo/uacss
+	dojo/text
+	dijit/hccss
+	dojox/grid/_View
+	dijit/_Contained
+	dojo/dnd/Selector
+	dojox/grid/DataSelection
+	dijit/templates/CheckedMenuItem.html
+	dojo/dnd/Manager
+	dijit/a11yclick
+	dojox/grid/_RowSelector
+	dojox/grid/_Layout
+	dojo/i18n
+	dojox/grid/_Grid
+	dijit/nls/loading
+	dojox/main
+	dojo/dnd/Mover
+	dojo/Stateful
+	dojo/touch
+	dojox/grid/Selection
+	dijit/_CssStateMixin
+	dojox/grid/resources/_Grid.html
+	dojox/grid/_RowManager
+	dojo/hccss
+	dojo/string
+	dojo/dnd/Avatar
+	dojox/grid/_Scroller
+	dojox/grid/_Events
+	dojo/dnd/autoscroll
+	dijit/registry
+	dijit/Destroyable
+	dojox/html/metrics
+	dojox/grid/_EditManager
+	dijit/a11y
+	dijit/CheckedMenuItem
+	dojo/dnd/Container
+	dojo/dnd/common
+	dojox/grid/_ViewManager
+	dojox/grid/cells
+	dijit/_Widget
+	dijit/_FocusMixin
+	dijit/_OnDijitClickMixin
+	dojo/cache
+	dijit/focus
+	dojox/grid/util
+	dojox/grid/DataGrid
+	dijit/templates/MenuItem.html
+	dijit/main
+	dojox/grid/resources/View.html
+	dojox/grid/_FocusManager
+	dijit/MenuItem
+	dijit/_TemplatedMixin
+	dojox/grid/_SelectionPreserver
+	dojo/window
+	dojox/grid/_Builder
+	dojo/dnd/Source
+	dojox/grid/cells/_base
+	dijit/_WidgetBase
+	dojo/dnd/Moveable
+
+
+
+Process finished normally
+	errors: 0
+	warnings: 395
+	build time: 64.398 seconds
