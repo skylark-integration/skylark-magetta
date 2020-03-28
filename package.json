@@ -1,0 +1,25 @@
+{
+  "name": "skylark-maqetta",
+  "version": "1.0",
+  "scripts": {
+    "build": "sbundle build ."
+  },  
+  "files": [
+    "packages/",
+    "demo/",
+    "dist/",
+    "src/",
+    "skins/"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dojo": "https://github.com/skylark-integration/dojo.git#master",
+    "dijit": "https://github.com/skylark-integration/dijit.git#master",
+    "dojox": "https://github.com/skylark-integration/dojox.git#master",
+    "skylark-jquery": "https://github.com/skylark-integration/skylark-jquery.git#master",
+    "skylark-langx": "https://github.com/skylarklangx/skylark-langx.git#master"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  }
+}
